@@ -1,0 +1,3315 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "created_at": "2025-10-14T16:11:34.088432",
+    "last_updated": "2025-11-18T20:58:08.850215"
+  },
+  "topics": {
+    "python核心语法": {
+      "name": "Python核心语法",
+      "created_at": "2025-10-14T16:11:34.088469",
+      "modules": {
+        "基础语法": {
+          "name": "基础语法",
+          "description": "掌握Python基本语法元素和结构",
+          "concepts": {
+            "变量": {
+              "name": "变量",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "基础语法",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "数据类型": {
+              "name": "数据类型",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "基础语法",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "运算符": {
+              "name": "运算符",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "基础语法",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "输入输出": {
+              "name": "输入输出",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "基础语法",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "注释": {
+              "name": "注释",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "基础语法",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            }
+          }
+        },
+        "流程控制": {
+          "name": "流程控制",
+          "description": "学习程序执行流程的控制方法",
+          "concepts": {
+            "条件语句": {
+              "name": "条件语句",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "流程控制",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "循环语句": {
+              "name": "循环语句",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "流程控制",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "循环控制": {
+              "name": "循环控制",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "流程控制",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            }
+          }
+        },
+        "函数": {
+          "name": "函数",
+          "description": "理解函数的定义和使用",
+          "concepts": {
+            "函数定义": {
+              "name": "函数定义",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "函数",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "参数传递": {
+              "name": "参数传递",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "函数",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "返回值": {
+              "name": "返回值",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "函数",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "作用域": {
+              "name": "作用域",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "函数",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "匿名函数": {
+              "name": "匿名函数",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "函数",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "递归": {
+              "name": "递归",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "函数",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            }
+          }
+        },
+        "数据结构": {
+          "name": "数据结构",
+          "description": "掌握Python内置数据结构的使用",
+          "concepts": {
+            "列表": {
+              "name": "列表",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "数据结构",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "元组": {
+              "name": "元组",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "数据结构",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "字典": {
+              "name": "字典",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "数据结构",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "集合": {
+              "name": "集合",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "数据结构",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "字符串操作": {
+              "name": "字符串操作",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "数据结构",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            }
+          }
+        },
+        "异常处理": {
+          "name": "异常处理",
+          "description": "学习错误和异常的处理机制",
+          "concepts": {
+            "异常类型": {
+              "name": "异常类型",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "异常处理",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "try-except": {
+              "name": "try-except",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "异常处理",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "finally": {
+              "name": "finally",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "异常处理",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "自定义异常": {
+              "name": "自定义异常",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "异常处理",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            }
+          }
+        },
+        "模块与包": {
+          "name": "模块与包",
+          "description": "了解代码组织和重用的机制",
+          "concepts": {
+            "模块导入": {
+              "name": "模块导入",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "模块与包",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "标准库": {
+              "name": "标准库",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "模块与包",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "包管理": {
+              "name": "包管理",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "模块与包",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            }
+          }
+        },
+        "面向对象": {
+          "name": "面向对象",
+          "description": "理解面向对象编程的核心概念",
+          "concepts": {
+            "类和对象": {
+              "name": "类和对象",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "面向对象",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "继承": {
+              "name": "继承",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "面向对象",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "多态": {
+              "name": "多态",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "面向对象",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "封装": {
+              "name": "封装",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "面向对象",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "特殊方法": {
+              "name": "特殊方法",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "面向对象",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            }
+          }
+        },
+        "模块和包": {
+          "name": "模块和包",
+          "description": "掌握代码组织和重用的方法",
+          "concepts": {
+            "模块导入": {
+              "name": "模块导入",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "模块和包",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "包管理": {
+              "name": "包管理",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "模块和包",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "命名空间": {
+              "name": "命名空间",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "模块和包",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            }
+          }
+        }
+      },
+      "concepts": {
+        "变量": {
+          "name": "变量",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "数据类型": {
+          "name": "数据类型",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "运算符": {
+          "name": "运算符",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "输入输出": {
+          "name": "输入输出",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "注释": {
+          "name": "注释",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "条件语句": {
+          "name": "条件语句",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "循环语句": {
+          "name": "循环语句",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "循环控制": {
+          "name": "循环控制",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "函数定义": {
+          "name": "函数定义",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "参数传递": {
+          "name": "参数传递",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "返回值": {
+          "name": "返回值",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "作用域": {
+          "name": "作用域",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "lambda函数": {
+          "name": "lambda函数",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "递归": {
+          "name": "递归",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "列表": {
+          "name": "列表",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "元组": {
+          "name": "元组",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false,
+            "quiz_taken": true,
+            "last_quiz_time": "2025-11-18T20:32:57.772045"
+          },
+          "mastery": {
+            "best_score_percent": 100.0
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "字典": {
+          "name": "字典",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false,
+            "quiz_taken": true,
+            "last_quiz_time": "2025-11-18T20:36:49.257296"
+          },
+          "mastery": {
+            "best_score_percent": 100.0
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "集合": {
+          "name": "集合",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false,
+            "quiz_taken": true,
+            "last_quiz_time": "2025-11-18T20:44:48.796717"
+          },
+          "mastery": {
+            "best_score_percent": 100.0
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "字符串操作": {
+          "name": "字符串操作",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false,
+            "quiz_taken": true,
+            "last_quiz_time": "2025-11-18T20:48:25.489824"
+          },
+          "mastery": {
+            "best_score_percent": 100.0
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "异常类型": {
+          "name": "异常类型",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "try-except": {
+          "name": "try-except",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "finally": {
+          "name": "finally",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "自定义异常": {
+          "name": "自定义异常",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "模块导入": {
+          "name": "模块导入",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "标准库": {
+          "name": "标准库",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "包管理": {
+          "name": "包管理",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "匿名函数": {
+          "name": "匿名函数",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "递归函数": {
+          "name": "递归函数",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "类和对象": {
+          "name": "类和对象",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "继承": {
+          "name": "继承",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "多态": {
+          "name": "多态",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "封装": {
+          "name": "封装",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "特殊方法": {
+          "name": "特殊方法",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "命名空间": {
+          "name": "命名空间",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "类与对象": {
+          "name": "类与对象",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false,
+            "quiz_taken": true,
+            "last_quiz_time": "2025-11-18T20:58:08.850201"
+          },
+          "mastery": {
+            "best_score_percent": 100.0
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "异常处理": {
+          "name": "异常处理",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false,
+            "quiz_taken": true,
+            "last_quiz_time": "2025-10-22T18:44:42.938979"
+          },
+          "mastery": {
+            "best_score_percent": 87.5
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "属性与方法": {
+          "name": "属性与方法",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        }
+      },
+      "graph": {
+        "relationships": {}
+      }
+    },
+    "python-编程": {
+      "name": "Python 编程",
+      "created_at": "2025-10-20T21:44:12.340535",
+      "modules": {
+        "基础语法": {
+          "name": "基础语法",
+          "description": "掌握 Python 基本语法元素和结构",
+          "concepts": {
+            "变量": {
+              "name": "变量",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "基础语法",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "数据类型": {
+              "name": "数据类型",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "基础语法",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "运算符": {
+              "name": "运算符",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "基础语法",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "输入输出": {
+              "name": "输入输出",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "基础语法",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "注释": {
+              "name": "注释",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "基础语法",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            }
+          }
+        },
+        "控制结构": {
+          "name": "控制结构",
+          "description": "学习程序流程控制的基本方法",
+          "concepts": {
+            "条件语句": {
+              "name": "条件语句",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "控制结构",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "循环语句": {
+              "name": "循环语句",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "控制结构",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "循环控制": {
+              "name": "循环控制",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "控制结构",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            }
+          }
+        },
+        "函数与模块": {
+          "name": "函数与模块",
+          "description": "理解函数定义和模块化编程",
+          "concepts": {
+            "函数定义": {
+              "name": "函数定义",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "函数与模块",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "参数传递": {
+              "name": "参数传递",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "函数与模块",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "返回值": {
+              "name": "返回值",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "函数与模块",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "作用域": {
+              "name": "作用域",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "函数与模块",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "模块导入": {
+              "name": "模块导入",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "函数与模块",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "标准库": {
+              "name": "标准库",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "函数与模块",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            }
+          }
+        },
+        "数据结构": {
+          "name": "数据结构",
+          "description": "掌握常用数据结构的操作",
+          "concepts": {
+            "列表": {
+              "name": "列表",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "数据结构",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "元组": {
+              "name": "元组",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "数据结构",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "字典": {
+              "name": "字典",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "数据结构",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "集合": {
+              "name": "集合",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "数据结构",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "字符串操作": {
+              "name": "字符串操作",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "数据结构",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            }
+          }
+        },
+        "面向对象编程": {
+          "name": "面向对象编程",
+          "description": "学习面向对象编程的基本概念",
+          "concepts": {
+            "类与对象": {
+              "name": "类与对象",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "面向对象编程",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "继承": {
+              "name": "继承",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "面向对象编程",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "多态": {
+              "name": "多态",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "面向对象编程",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "封装": {
+              "name": "封装",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "面向对象编程",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            }
+          }
+        },
+        "异常处理": {
+          "name": "异常处理",
+          "description": "掌握错误和异常的处理机制",
+          "concepts": {
+            "异常类型": {
+              "name": "异常类型",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "异常处理",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "try-except": {
+              "name": "try-except",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "异常处理",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "finally": {
+              "name": "finally",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "异常处理",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "自定义异常": {
+              "name": "自定义异常",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "异常处理",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            }
+          }
+        },
+        "文件操作": {
+          "name": "文件操作",
+          "description": "学习文件的读写和管理",
+          "concepts": {
+            "文件打开": {
+              "name": "文件打开",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "文件操作",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "文件读写": {
+              "name": "文件读写",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "文件操作",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "文件关闭": {
+              "name": "文件关闭",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "文件操作",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "路径处理": {
+              "name": "路径处理",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "文件操作",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            }
+          }
+        },
+        "高级特性": {
+          "name": "高级特性",
+          "description": "了解 Python 的高级编程特性",
+          "concepts": {
+            "列表推导式": {
+              "name": "列表推导式",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "高级特性",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "生成器": {
+              "name": "生成器",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "高级特性",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "装饰器": {
+              "name": "装饰器",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "高级特性",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            },
+            "上下文管理器": {
+              "name": "上下文管理器",
+              "children": [],
+              "status": {
+                "explained": false,
+                "quiz_generated": false
+              },
+              "mastery": {
+                "best_score_percent": -1
+              },
+              "module_id": "高级特性",
+              "relationships": {
+                "prerequisites": [],
+                "dependencies": [],
+                "related": [],
+                "enables": []
+              },
+              "graph_metadata": {
+                "difficulty": 1,
+                "importance": 1,
+                "tags": []
+              }
+            }
+          }
+        }
+      },
+      "concepts": {
+        "变量": {
+          "name": "变量",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "数据类型": {
+          "name": "数据类型",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "运算符": {
+          "name": "运算符",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "输入输出": {
+          "name": "输入输出",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "注释": {
+          "name": "注释",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "条件语句": {
+          "name": "条件语句",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "循环语句": {
+          "name": "循环语句",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "循环控制": {
+          "name": "循环控制",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "函数定义": {
+          "name": "函数定义",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "参数传递": {
+          "name": "参数传递",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "返回值": {
+          "name": "返回值",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "作用域": {
+          "name": "作用域",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "模块导入": {
+          "name": "模块导入",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "标准库": {
+          "name": "标准库",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "列表": {
+          "name": "列表",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "元组": {
+          "name": "元组",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "字典": {
+          "name": "字典",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "集合": {
+          "name": "集合",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "字符串操作": {
+          "name": "字符串操作",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "类与对象": {
+          "name": "类与对象",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "继承": {
+          "name": "继承",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "多态": {
+          "name": "多态",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "封装": {
+          "name": "封装",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "异常类型": {
+          "name": "异常类型",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "try-except": {
+          "name": "try-except",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "finally": {
+          "name": "finally",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "自定义异常": {
+          "name": "自定义异常",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "文件打开": {
+          "name": "文件打开",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "文件读写": {
+          "name": "文件读写",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "文件关闭": {
+          "name": "文件关闭",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "路径处理": {
+          "name": "路径处理",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "列表推导式": {
+          "name": "列表推导式",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "生成器": {
+          "name": "生成器",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "装饰器": {
+          "name": "装饰器",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        },
+        "上下文管理器": {
+          "name": "上下文管理器",
+          "children": [],
+          "status": {
+            "explained": false,
+            "quiz_generated": false
+          },
+          "mastery": {
+            "best_score_percent": -1
+          },
+          "relationships": {
+            "prerequisites": [],
+            "dependencies": [],
+            "related": [],
+            "enables": []
+          },
+          "graph_metadata": {
+            "difficulty": 1,
+            "importance": 1,
+            "tags": []
+          }
+        }
+      },
+      "graph": {
+        "relationships": {}
+      }
+    }
+  },
+  "graph": {
+    "relationships": {},
+    "layout": {},
+    "styles": {}
+  }
+}

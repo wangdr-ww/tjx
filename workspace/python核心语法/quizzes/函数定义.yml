@@ -1,0 +1,120 @@
+- question: 在编程中，函数定义的主要目的是什么？
+  options:
+    A: 增加代码的复杂度
+    B: 创建一个可重用的代码块
+    C: 提高程序的运行速度
+    D: 减少变量的使用
+  answer: B
+  explanation: 根据核心定义，函数定义是创建一个可重用代码块的过程，允许将代码封装起来并多次调用，避免重复编写相同代码。
+- question: 函数定义中，用于唯一标识并调用函数的部分是什么？
+  options:
+    A: 参数
+    B: 函数体
+    C: 函数名
+    D: 返回值
+  answer: C
+  explanation: 关键特征指出，函数名是一个唯一的标识符，用于调用函数，例如`calculate_sum`就是一个函数名。
+- question: 在函数的类比中，将函数比作'自动咖啡机'时，参数相当于什么？
+  options:
+    A: 放入咖啡机的原料
+    B: 咖啡机产出的咖啡
+    C: 咖啡机的型号
+    D: 咖啡机内部的加工过程
+  answer: A
+  explanation: 简单类比中说明，参数相当于放入咖啡机的原料，如咖啡豆和水，代表函数的输入值。
+- question: 函数体中包含什么内容？
+  options:
+    A: 函数内部执行的代码块和逻辑
+    B: 函数执行完成后返回的结果
+    C: 函数可以接受的输入值
+    D: 用于调用函数的标识符
+  answer: A
+  explanation: 关键特征描述，函数体是函数内部执行的代码块，包含了具体的逻辑和操作。
+- question: 如果函数没有显式返回值，在Python中通常会返回什么？
+  options:
+    A: '0'
+    B: 空字符串
+    C: None
+    D: 'True'
+  answer: C
+  explanation: 关键特征提到，如果函数没有返回值，通常会返回`None`（在Python中）或类似的值。
+- question: 在Python中，用于定义函数的关键字是什么？
+  options:
+    A: function
+    B: def
+    C: define
+    D: func
+  answer: B
+  explanation: 在Python中，使用关键字'def'来定义函数，后面跟着函数名和参数列表。
+- question: 在给定的代码中，函数add_numbers的返回值是什么？
+  options:
+    A: a + b
+    B: sum_result
+    C: result
+    D: '两个数的和是: 8'
+  answer: C
+  explanation: 函数通过'return result'语句返回变量result的值，该变量存储了a + b的计算结果。
+- question: 在函数调用add_numbers(3, 5)中，数字3和5被称为什么？
+  options:
+    A: 函数名
+    B: 参数
+    C: 返回值
+    D: 实参
+  answer: D
+  explanation: 在函数调用时传递给函数的具体值（如3和5）被称为实际参数，简称实参。
+- question: 以下哪行代码正确地调用了add_numbers函数并将结果存储在变量中？
+  options:
+    A: result = def add_numbers(3, 5)
+    B: sum_result = add_numbers(3, 5)
+    C: add_numbers(3, 5) = sum_result
+    D: return add_numbers(3, 5)
+  answer: B
+  explanation: 选项B正确地使用了函数调用语法'add_numbers(3, 5)'，并将返回值赋给了变量sum_result。
+- question: 在函数定义def add_numbers(a, b):中，a和b被称为什么？
+  options:
+    A: 实参
+    B: 返回值
+    C: 形参
+    D: 函数体
+  answer: C
+  explanation: 在函数定义中，括号内的变量（如a和b）是形式参数，简称形参，用于接收调用时传递的实际参数。
+- question: 在Python中，调用函数 `add_numbers(3, 5)` 并将返回值存储在变量 `sum_result` 中，这体现了函数的哪个主要好处？
+  options:
+    A: 调试方便
+    B: 模块化
+    C: 可读性
+    D: 代码重用
+  answer: D
+  explanation: 通过调用函数并重用其代码逻辑来计算结果，避免了重复编写相同的计算代码，体现了代码重用的好处。
+- question: 关于函数参数和返回值的描述，以下哪项是正确的？
+  options:
+    A: 函数可以没有返回值，也可以没有参数
+    B: 函数可以没有参数，但必须有返回值
+    C: 所有函数都必须有参数和返回值
+    D: 函数如果没有返回值，则无法被调用
+  answer: A
+  explanation: 函数可以根据需要设计，既可以没有参数（如无参数函数），也可以没有返回值（默认返回 `None`）。
+- question: 在Python中，如果一个函数没有显式返回任何值，那么它的返回值是什么？
+  options:
+    A: 空字符串
+    B: None
+    C: '0'
+    D: 'True'
+  answer: B
+  explanation: 在Python中，如果函数没有使用 `return` 语句返回值，则默认返回 `None`。
+- question: 以下哪个建议有助于避免在函数定义中出错？
+  options:
+    A: 所有函数都必须有多个参数
+    B: 避免使用注释
+    C: 只使用全局变量
+    D: 确保参数类型正确
+  answer: D
+  explanation: 在调用函数前确保参数类型正确（例如，数字相加时不要传递字符串）是避免常见错误的建议之一。
+- question: 函数的主要好处不包括以下哪一项？
+  options:
+    A: 增加代码长度
+    B: 模块化
+    C: 代码重用
+    D: 提高可读性
+  answer: A
+  explanation: 函数的主要好处包括代码重用、模块化、提高可读性和调试方便，而增加代码长度不是函数的好处，相反函数通常有助于减少重复代码。

@@ -1,0 +1,191 @@
+{
+  "concept": "类与对象",
+  "concept_slug": "类与对象",
+  "topic": "python核心语法",
+  "quiz_time": "2025-11-18T20:58:08.845654",
+  "total_questions": 15,
+  "correct_count": 15,
+  "accuracy": 100.0,
+  "questions": [
+    {
+      "question": "在面向对象编程中，关于'类'与'对象'的关系，以下哪个比喻最准确？",
+      "options": [
+        "类是设计图，对象是根据设计图制造出的具体产品",
+        "类是具体的产品，对象是产品的使用说明书",
+        "类是原材料，对象是加工后的半成品",
+        "类是操作指南，对象是执行操作的工具"
+      ],
+      "user_answer": "类是设计图，对象是根据设计图制造出的具体产品",
+      "correct_answer": "类是设计图，对象是根据设计图制造出的具体产品",
+      "is_correct": true
+    },
+    {
+      "question": "在面向对象编程中，'实例化'指的是什么过程？",
+      "options": [
+        "通过类创建对象",
+        "修改类的属性值",
+        "定义类的方法",
+        "销毁一个对象"
+      ],
+      "user_answer": "通过类创建对象",
+      "correct_answer": "通过类创建对象",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪项是'类'中定义的元素，用于描述对象的行为或操作？",
+      "options": [
+        "属性",
+        "方法",
+        "封装",
+        "实例"
+      ],
+      "user_answer": "方法",
+      "correct_answer": "方法",
+      "is_correct": true
+    },
+    {
+      "question": "关于'封装'的概念，以下哪项描述是正确的？",
+      "options": [
+        "封装指的是一个类可以创建多个对象",
+        "封装指的是将数据（属性）和操作数据的方法捆绑在一起，形成一个独立单元",
+        "封装指的是对象属性值的不同",
+        "封装指的是类与类之间的继承关系"
+      ],
+      "user_answer": "封装指的是将数据（属性）和操作数据的方法捆绑在一起，形成一个独立单元",
+      "correct_answer": "封装指的是将数据（属性）和操作数据的方法捆绑在一起，形成一个独立单元",
+      "is_correct": true
+    },
+    {
+      "question": "根据汽车设计图与真实汽车的类比，以下哪项说法是错误的？",
+      "options": [
+        "汽车设计图相当于类，定义了汽车的部件和功能",
+        "真实汽车相当于对象，是类的具体实例",
+        "你可以开动真实汽车（调用方法），但无法开动设计图",
+        "设计图本身也可以像汽车一样被直接使用"
+      ],
+      "user_answer": "设计图本身也可以像汽车一样被直接使用",
+      "correct_answer": "设计图本身也可以像汽车一样被直接使用",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，根据给定的Dog类，创建对象my_dog时使用的代码是什么？",
+      "options": [
+        "Dog my_dog = Dog('Buddy', 3)",
+        "my_dog = Dog('Buddy', 3)",
+        "my_dog = new Dog('Buddy', 3)",
+        "my_dog = Dog.create('Buddy', 3)"
+      ],
+      "user_answer": "my_dog = Dog('Buddy', 3)",
+      "correct_answer": "my_dog = Dog('Buddy', 3)",
+      "is_correct": true
+    },
+    {
+      "question": "在Dog类中，bark方法的作用是什么？",
+      "options": [
+        "返回狗的详细信息",
+        "设置狗的年龄",
+        "打印狗在吠叫的信息",
+        "创建一只新的狗"
+      ],
+      "user_answer": "打印狗在吠叫的信息",
+      "correct_answer": "打印狗在吠叫的信息",
+      "is_correct": true
+    },
+    {
+      "question": "执行 `print(my_dog.get_info())` 会输出什么？",
+      "options": [
+        "这只狗叫 Buddy，今年 3 岁。",
+        "Buddy 在汪汪叫！",
+        "这只狗叫 Max，今年 5 岁。",
+        "my_dog 在汪汪叫！"
+      ],
+      "user_answer": "这只狗叫 Buddy，今年 3 岁。",
+      "correct_answer": "这只狗叫 Buddy，今年 3 岁。",
+      "is_correct": true
+    },
+    {
+      "question": "在Dog类中，`self.name = name` 这行代码的作用是什么？",
+      "options": [
+        "定义一个名为name的局部变量",
+        "调用类的外部函数",
+        "打印狗的名字",
+        "将参数name的值赋给对象的name属性"
+      ],
+      "user_answer": "将参数name的值赋给对象的name属性",
+      "correct_answer": "将参数name的值赋给对象的name属性",
+      "is_correct": true
+    },
+    {
+      "question": "根据代码，`your_dog` 对象的年龄属性（age）是多少？",
+      "options": [
+        "3",
+        "Buddy",
+        "5",
+        "Max"
+      ],
+      "user_answer": "5",
+      "correct_answer": "5",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，创建Dog类的对象时，哪个特殊方法会被自动调用以初始化对象的属性？",
+      "options": [
+        "start",
+        "create",
+        "main",
+        "__init__"
+      ],
+      "user_answer": "__init__",
+      "correct_answer": "__init__",
+      "is_correct": true
+    },
+    {
+      "question": "在Dog类的方法定义中，参数'self'代表什么？",
+      "options": [
+        "类的名称",
+        "父类",
+        "对象自身",
+        "方法的返回值"
+      ],
+      "user_answer": "对象自身",
+      "correct_answer": "对象自身",
+      "is_correct": true
+    },
+    {
+      "question": "根据代码示例，执行your_dog.bark()会输出什么？",
+      "options": [
+        "Max在汪汪叫！",
+        "这只狗叫Max，今年5岁。",
+        "Buddy在汪汪叫！",
+        "我的狗叫Buddy"
+      ],
+      "user_answer": "Max在汪汪叫！",
+      "correct_answer": "Max在汪汪叫！",
+      "is_correct": true
+    },
+    {
+      "question": "类和对象的主要区别是什么？",
+      "options": [
+        "类占用内存，对象不占用内存",
+        "类是具体实例，对象是抽象模板",
+        "类定义属性和方法，对象是类的具体实例",
+        "对象只能有一个，类可以有多个"
+      ],
+      "user_answer": "类定义属性和方法，对象是类的具体实例",
+      "correct_answer": "类定义属性和方法，对象是类的具体实例",
+      "is_correct": true
+    },
+    {
+      "question": "在面向对象编程中，通常如何识别需要设计的类？",
+      "options": [
+        "根据问题域中的'动词'",
+        "根据问题域中的'名词'",
+        "根据编程语言的语法",
+        "根据代码的行数"
+      ],
+      "user_answer": "根据问题域中的'名词'",
+      "correct_answer": "根据问题域中的'名词'",
+      "is_correct": true
+    }
+  ]
+}

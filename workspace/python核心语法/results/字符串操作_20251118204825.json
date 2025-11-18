@@ -1,0 +1,251 @@
+{
+  "concept": "字符串操作",
+  "concept_slug": "字符串操作",
+  "topic": "python核心语法",
+  "quiz_time": "2025-11-18T20:48:25.486776",
+  "total_questions": 20,
+  "correct_count": 20,
+  "accuracy": 100.0,
+  "questions": [
+    {
+      "question": "在编程中，字符串操作的主要目的是什么？",
+      "options": [
+        "仅用于存储数字数据",
+        "仅用于连接两个字符串",
+        "仅用于加密敏感信息",
+        "对文本数据进行创建、修改、查询和转换"
+      ],
+      "user_answer": "对文本数据进行创建、修改、查询和转换",
+      "correct_answer": "对文本数据进行创建、修改、查询和转换",
+      "is_correct": true
+    },
+    {
+      "question": "在许多编程语言（如Python）中，字符串的不可变性意味着什么？",
+      "options": [
+        "字符串可以被直接修改而不影响原始值",
+        "字符串一旦创建就不能被直接修改，任何操作都会生成新字符串",
+        "字符串的长度固定不变",
+        "字符串只能包含不可见字符"
+      ],
+      "user_answer": "字符串一旦创建就不能被直接修改，任何操作都会生成新字符串",
+      "correct_answer": "字符串一旦创建就不能被直接修改，任何操作都会生成新字符串",
+      "is_correct": true
+    },
+    {
+      "question": "字符串的序列性特性允许我们执行哪些操作？",
+      "options": [
+        "仅进行大小写转换",
+        "通过索引访问单个字符或通过切片获取子字符串",
+        "直接修改字符串中的字符",
+        "仅用于连接多个字符串"
+      ],
+      "user_answer": "通过索引访问单个字符或通过切片获取子字符串",
+      "correct_answer": "通过索引访问单个字符或通过切片获取子字符串",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪项是字符串操作的常见类型？",
+      "options": [
+        "仅包括连接和分割",
+        "仅包括查找和替换",
+        "仅用于处理数字编码",
+        "包括连接、分割、查找、替换和大小写转换等"
+      ],
+      "user_answer": "包括连接、分割、查找、替换和大小写转换等",
+      "correct_answer": "包括连接、分割、查找、替换和大小写转换等",
+      "is_correct": true
+    },
+    {
+      "question": "在字符串操作中，编码处理的主要作用是什么？",
+      "options": [
+        "仅用于压缩字符串以减少存储空间",
+        "确保字符串支持不同语言的字符，避免乱码问题",
+        "仅用于将字符串转换为数字",
+        "仅用于连接字符串时提高速度"
+      ],
+      "user_answer": "确保字符串支持不同语言的字符，避免乱码问题",
+      "correct_answer": "确保字符串支持不同语言的字符，避免乱码问题",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，使用什么运算符可以将两个字符串合并？",
+      "options": [
+        "+",
+        "*",
+        "&",
+        "|"
+      ],
+      "user_answer": "+",
+      "correct_answer": "+",
+      "is_correct": true
+    },
+    {
+      "question": "在字符串 'Hello World' 中，使用 find() 方法查找 'World' 会返回什么结果？",
+      "options": [
+        "6",
+        "True",
+        "5",
+        "-1"
+      ],
+      "user_answer": "6",
+      "correct_answer": "6",
+      "is_correct": true
+    },
+    {
+      "question": "如果使用 find() 方法在字符串中未找到指定的子串，会返回什么值？",
+      "options": [
+        "0",
+        "-1",
+        "None",
+        "False"
+      ],
+      "user_answer": "-1",
+      "correct_answer": "-1",
+      "is_correct": true
+    },
+    {
+      "question": "关于字符串的 replace() 方法，下列哪项描述是正确的？",
+      "options": [
+        "它会修改原始字符串",
+        "它只能替换单个字符",
+        "它返回一个替换了部分内容的新字符串",
+        "它不需要参数"
+      ],
+      "user_answer": "它返回一个替换了部分内容的新字符串",
+      "correct_answer": "它返回一个替换了部分内容的新字符串",
+      "is_correct": true
+    },
+    {
+      "question": "执行代码 `combined = str1 + ' ' + str2` 后，变量 `combined` 的值是什么？（假设 str1='Hi', str2='There'）",
+      "options": [
+        "Hi There",
+        "HiThere",
+        "Hi  There",
+        "Hi+There"
+      ],
+      "user_answer": "Hi There",
+      "correct_answer": "Hi There",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，使用split()方法分割字符串 'Hello World' 以空格为分隔符，结果是什么？",
+      "options": [
+        "['Hello', 'World']",
+        "['Hello World']",
+        "['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd']",
+        "('Hello', 'World')"
+      ],
+      "user_answer": "['Hello', 'World']",
+      "correct_answer": "['Hello', 'World']",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪个方法可以将字符串 'hello' 转换为全大写形式？",
+      "options": [
+        "len()",
+        "lower()",
+        "split()",
+        "upper()"
+      ],
+      "user_answer": "upper()",
+      "correct_answer": "upper()",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，如何获取字符串 'Python' 的长度？",
+      "options": [
+        "string.length('Python')",
+        "'Python'.size()",
+        "len('Python')",
+        "'Python'.count()"
+      ],
+      "user_answer": "len('Python')",
+      "correct_answer": "len('Python')",
+      "is_correct": true
+    },
+    {
+      "question": "执行 combined = 'Hello World'; lower_str = combined.lower() 后，lower_str的值是什么？",
+      "options": [
+        "hello world",
+        "HELLO WORLD",
+        "Hello world",
+        "Hello World"
+      ],
+      "user_answer": "hello world",
+      "correct_answer": "hello world",
+      "is_correct": true
+    },
+    {
+      "question": "关于字符串操作，以下哪个说法是正确的？",
+      "options": [
+        "split()方法只能以逗号作为分隔符",
+        "upper()方法会改变原字符串的值",
+        "len()是字符串对象的方法",
+        "split()方法返回的结果是一个列表"
+      ],
+      "user_answer": "split()方法返回的结果是一个列表",
+      "correct_answer": "split()方法返回的结果是一个列表",
+      "is_correct": true
+    },
+    {
+      "question": "关于字符串的不可变性，以下哪个说法是正确的？",
+      "options": [
+        "字符串不可变意味着不能对字符串进行任何操作",
+        "不可变性可以提高安全性，防止意外更改字符串内容",
+        "不可变性会显著降低程序性能，应该尽量避免",
+        "不可变性只存在于Python语言中，其他语言没有此特性"
+      ],
+      "user_answer": "不可变性可以提高安全性，防止意外更改字符串内容",
+      "correct_answer": "不可变性可以提高安全性，防止意外更改字符串内容",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，如何安全地检查一个子串是否存在于字符串中？",
+      "options": [
+        "使用find()方法，如果返回0表示存在",
+        "使用index()方法，如果抛出异常表示不存在",
+        "使用in关键字进行简单检查",
+        "直接访问子串的索引位置"
+      ],
+      "user_answer": "使用in关键字进行简单检查",
+      "correct_answer": "使用in关键字进行简单检查",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪个是字符串操作中常见的错误？",
+      "options": [
+        "使用过多字符串连接操作",
+        "使用太长的字符串变量名",
+        "索引越界，访问不存在的字符位置",
+        "在字符串中使用中文字符"
+      ],
+      "user_answer": "索引越界，访问不存在的字符位置",
+      "correct_answer": "索引越界，访问不存在的字符位置",
+      "is_correct": true
+    },
+    {
+      "question": "当处理包含中文的字符串时，为了避免乱码问题，应该怎么做？",
+      "options": [
+        "避免在程序中使用任何非英文字符",
+        "使用ASCII编码来处理所有字符串",
+        "确保代码和文件使用统一编码，如UTF-8",
+        "将所有中文字符转换为拼音"
+      ],
+      "user_answer": "确保代码和文件使用统一编码，如UTF-8",
+      "correct_answer": "确保代码和文件使用统一编码，如UTF-8",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，如果试图直接修改字符串的某个字符，如str[0] = 'A'，会发生什么？",
+      "options": [
+        "操作成功，字符串的第一个字符被修改",
+        "程序会崩溃并退出",
+        "会产生编译错误",
+        "会报错，因为字符串是不可变的"
+      ],
+      "user_answer": "会报错，因为字符串是不可变的",
+      "correct_answer": "会报错，因为字符串是不可变的",
+      "is_correct": true
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+- question: 条件语句在编程中主要扮演什么角色？
+  options:
+    A: 用于重复执行代码
+    B: 用于定义变量
+    C: 用于根据条件真假决定执行哪部分代码
+    D: 用于数学计算
+  answer: C
+  explanation: 根据核心定义，条件语句是程序中的'决策点'，允许程序根据特定条件的真假来决定执行哪一部分代码。
+- question: 条件语句的判断基于什么类型的表达式？
+  options:
+    A: 字符串表达式
+    B: 布尔表达式
+    C: 算术表达式
+    D: 赋值表达式
+  answer: B
+  explanation: 关键特征中指出，条件语句依赖于一个布尔表达式，即结果为'真'或'假'的表达式。
+- question: 在条件语句中，如果条件为假，程序会如何执行？
+  options:
+    A: 停止程序运行
+    B: 总是执行另一段指定的代码
+    C: 重复执行条件判断
+    D: 可能执行另一段代码或直接跳过
+  answer: D
+  explanation: 根据分支执行的特点，如果条件为假，程序可能执行另一段代码（如else分支）或直接跳过。
+- question: 以下哪个关键字通常用于条件语句中？
+  options:
+    A: for
+    B: while
+    C: if
+    D: def
+  answer: C
+  explanation: 常见形式中提到，条件语句包括if、else和else if等关键字，if是最基本的条件判断关键字。
+- question: 在'带伞出门'的类比中，什么相当于程序中的条件？
+  options:
+    A: 带伞的行动
+    B: 出门的决定
+    C: 天气是否下雨
+    D: 人的思考过程
+  answer: C
+  explanation: 简单类比中说明，'天气是下雨的'是条件，相当于程序中的布尔表达式，决定后续行动。
+- question: 条件语句的主要优点是什么？
+  options:
+    A: 提高代码执行速度
+    B: 让程序适应多种情况
+    C: 减少代码行数
+    D: 简化变量命名
+  answer: B
+  explanation: 关键特征中强调，条件语句灵活性高，可以让程序适应多种情况，如处理用户输入或错误检查。
+- question: 在Python中，当if条件为假时，程序会执行什么操作？
+  options:
+    A: 执行if代码块中的语句
+    B: 自动重新检查条件
+    C: 程序会报错
+    D: 执行else代码块中的语句（如果存在）
+  answer: D
+  explanation: 当if条件为假时，如果有else部分，程序会执行else代码块中的语句；如果没有else部分，则直接跳过整个条件语句继续执行后续代码。
+- question: 关于条件语句中的条件，以下哪项描述是正确的？
+  options:
+    A: 条件通常是一个布尔表达式，结果为True或False
+    B: 条件必须是整数类型
+    C: 条件只能是字符串比较
+    D: 条件必须是复杂的逻辑运算
+  answer: A
+  explanation: 条件通常是一个布尔表达式，即结果为'真'(True)或'假'(False)的表达式，如比较运算或逻辑运算。
+- question: 在Python条件语句中，代码块的归属是通过什么来确定的？
+  options:
+    A: 大括号{}
+    B: 缩进
+    C: 分号;
+    D: 圆括号()
+  answer: B
+  explanation: 在Python中，缩进（通常是4个空格）非常重要，它表示代码块的归属，包括条件语句中的代码块。
+- question: 关于嵌套条件语句，以下说法正确的是？
+  options:
+    A: Python不支持条件语句的嵌套
+    B: 嵌套条件语句只能嵌套一层
+    C: 嵌套条件语句会降低程序效率，应该避免使用
+    D: 嵌套条件语句是指在一个条件语句内部再使用另一个条件语句
+  answer: D
+  explanation: 嵌套条件语句是指在一个条件语句内部再使用另一个条件语句，这在处理复杂逻辑时非常有用。
+- question: 如果条件语句只有if部分而没有else部分，当条件为假时会发生什么？
+  options:
+    A: 程序会直接跳过if代码块，继续执行后续代码
+    B: 程序会等待用户输入
+    C: 程序会报错
+    D: 程序会自动创建一个else部分
+  answer: A
+  explanation: 如果条件语句只有if部分而没有else，当条件为假时，程序会直接跳过if代码块，继续执行后续的代码。
+- question: 在示例代码中，如果变量number的值被修改为-5，程序会输出什么？
+  options:
+    A: 这个数不是正数。
+    B: 这个数是正数。
+    C: 程序没有输出
+    D: 程序会报错
+  answer: A
+  explanation: 当number为-5时，if条件(number > 0)为假，因此会执行else部分的代码，输出'这个数不是正数。'

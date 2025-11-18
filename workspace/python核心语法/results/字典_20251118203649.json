@@ -1,0 +1,191 @@
+{
+  "concept": "字典",
+  "concept_slug": "字典",
+  "topic": "python核心语法",
+  "quiz_time": "2025-11-18T20:36:49.252759",
+  "total_questions": 15,
+  "correct_count": 15,
+  "accuracy": 100.0,
+  "questions": [
+    {
+      "question": "在编程中，字典数据结构的主要存储方式是什么？",
+      "options": [
+        "键值对存储",
+        "数组存储",
+        "链表存储",
+        "栈存储"
+      ],
+      "user_answer": "键值对存储",
+      "correct_answer": "键值对存储",
+      "is_correct": true
+    },
+    {
+      "question": "关于字典中键的特性，以下哪项描述是正确的？",
+      "options": [
+        "每个键必须是唯一的",
+        "键必须是数字类型",
+        "键可以重复，值必须唯一",
+        "键的顺序决定了查找效率"
+      ],
+      "user_answer": "每个键必须是唯一的",
+      "correct_answer": "每个键必须是唯一的",
+      "is_correct": true
+    },
+    {
+      "question": "字典数据结构的一个主要优势是什么？",
+      "options": [
+        "占用内存极小",
+        "元素自动排序",
+        "通过键访问值非常高效",
+        "只能存储字符串类型数据"
+      ],
+      "user_answer": "通过键访问值非常高效",
+      "correct_answer": "通过键访问值非常高效",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪个生活例子最能类比字典的工作原理？",
+      "options": [
+        "电话簿",
+        "图书馆书架",
+        "购物清单",
+        "音乐播放列表"
+      ],
+      "user_answer": "电话簿",
+      "correct_answer": "电话簿",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，关于字典的可变性，以下说法正确的是？",
+      "options": [
+        "字典创建后不能修改",
+        "可以随时添加、删除或修改键值对",
+        "只能添加新元素，不能删除",
+        "只能修改值，不能修改键"
+      ],
+      "user_answer": "可以随时添加、删除或修改键值对",
+      "correct_answer": "可以随时添加、删除或修改键值对",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，如何向字典my_dict中添加一个键为'城市'，值为'北京'的元素？",
+      "options": [
+        "my_dict.add('城市', '北京')",
+        "my_dict.insert('城市', '北京')",
+        "my_dict['城市'] = '北京'",
+        "my_dict.append('城市': '北京')"
+      ],
+      "user_answer": "my_dict['城市'] = '北京'",
+      "correct_answer": "my_dict['城市'] = '北京'",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪种方法可以正确获取字典my_dict中键'姓名'对应的值？",
+      "options": [
+        "name = my_dict['姓名']",
+        "name = my_dict('姓名')",
+        "name = my_dict.get['姓名']",
+        "name = my_dict.姓名"
+      ],
+      "user_answer": "name = my_dict['姓名']",
+      "correct_answer": "name = my_dict['姓名']",
+      "is_correct": true
+    },
+    {
+      "question": "如何将字典my_dict中键'年龄'的值从25修改为26？",
+      "options": [
+        "my_dict.update('年龄', 26)",
+        "my_dict['年龄'] = 26",
+        "my_dict.set('年龄', 26)",
+        "my_dict.modify('年龄', 26)"
+      ],
+      "user_answer": "my_dict['年龄'] = 26",
+      "correct_answer": "my_dict['年龄'] = 26",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，使用哪个关键字可以删除字典中的指定键值对？",
+      "options": [
+        "remove",
+        "delete",
+        "del",
+        "pop"
+      ],
+      "user_answer": "del",
+      "correct_answer": "del",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪种方法可以检查字典my_dict中是否存在键'年龄'？",
+      "options": [
+        "if my_dict.has_key('年龄')",
+        "if '年龄' in my_dict",
+        "if my_dict.contains('年龄')",
+        "if my_dict.exists('年龄')"
+      ],
+      "user_answer": "if '年龄' in my_dict",
+      "correct_answer": "if '年龄' in my_dict",
+      "is_correct": true
+    },
+    {
+      "question": "在大多数编程语言中，字典的键通常要求是什么类型？",
+      "options": [
+        "可变类型",
+        "只能是字符串类型",
+        "任意类型",
+        "不可变类型"
+      ],
+      "user_answer": "不可变类型",
+      "correct_answer": "不可变类型",
+      "is_correct": true
+    },
+    {
+      "question": "字典和列表在访问元素时的主要区别是什么？",
+      "options": [
+        "列表通过键访问，字典通过索引访问",
+        "两者都通过键访问",
+        "两者都通过索引访问",
+        "列表通过索引访问，字典通过键访问"
+      ],
+      "user_answer": "列表通过索引访问，字典通过键访问",
+      "correct_answer": "列表通过索引访问，字典通过键访问",
+      "is_correct": true
+    },
+    {
+      "question": "如果向字典中添加一个已存在的键，会发生什么？",
+      "options": [
+        "字典会自动删除该键",
+        "会引发错误",
+        "旧值会保留，新值被忽略",
+        "新值会覆盖旧值"
+      ],
+      "user_answer": "新值会覆盖旧值",
+      "correct_answer": "新值会覆盖旧值",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪种数据类型在Python中不能作为字典的键？",
+      "options": [
+        "字符串",
+        "列表",
+        "整数",
+        "元组"
+      ],
+      "user_answer": "列表",
+      "correct_answer": "列表",
+      "is_correct": true
+    },
+    {
+      "question": "如何安全地检查字典中某个键是否存在以避免意外覆盖？",
+      "options": [
+        "直接添加键值对",
+        "使用 `dict.clear()` 方法",
+        "使用 `in` 关键字检查键是否存在",
+        "使用 `dict.keys()` 方法获取所有键"
+      ],
+      "user_answer": "使用 `in` 关键字检查键是否存在",
+      "correct_answer": "使用 `in` 关键字检查键是否存在",
+      "is_correct": true
+    }
+  ]
+}

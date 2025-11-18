@@ -1,0 +1,215 @@
+{
+  "concept": "输入输出",
+  "concept_slug": "输入输出",
+  "topic": "python核心语法",
+  "quiz_time": "2025-10-22T17:55:58.181440",
+  "total_questions": 17,
+  "correct_count": 16,
+  "accuracy": 94.11764705882352,
+  "questions": [
+    {
+      "question": "根据核心定义，以下关于输入输出的描述哪一项最准确？",
+      "options": [
+        "输入是系统从外部接收数据，输出是系统向外部发送数据或结果。",
+        "输入是计算机处理数据的过程，输出是存储数据的过程。",
+        "输入和输出都是计算机内部的数据运算。",
+        "输入是计算机显示信息，输出是用户提供指令。"
+      ],
+      "user_answer": "输入是系统从外部接收数据，输出是系统向外部发送数据或结果。",
+      "correct_answer": "输入是系统从外部接收数据，输出是系统向外部发送数据或结果。",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪一项是输入输出关键特征中'双向性'的典型例子？",
+      "options": [
+        "使用打印机打印文档。",
+        "从键盘接收输入的同时在屏幕上显示输出。",
+        "将数据临时存储在缓冲区中。",
+        "系统以异步方式处理用户请求。"
+      ],
+      "user_answer": "从键盘接收输入的同时在屏幕上显示输出。",
+      "correct_answer": "从键盘接收输入的同时在屏幕上显示输出。",
+      "is_correct": true
+    },
+    {
+      "question": "在输入输出的简单类比中，将'顾客告诉服务员想吃什么'比作什么？",
+      "options": [
+        "输出",
+        "输入",
+        "处理",
+        "存储"
+      ],
+      "user_answer": "输入",
+      "correct_answer": "输入",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪项设备通常被归类为输出设备？",
+      "options": [
+        "键盘",
+        "鼠标",
+        "传感器",
+        "显示器"
+      ],
+      "user_answer": "显示器",
+      "correct_answer": "显示器",
+      "is_correct": true
+    },
+    {
+      "question": "关于输入输出操作中的'同步与异步'，以下描述正确的是？",
+      "options": [
+        "同步操作会影响系统的响应速度，因为程序需要等待。",
+        "异步操作要求程序等待输入输出操作完成后再继续。",
+        "同步操作允许程序在输入输出进行时执行其他任务。",
+        "异步操作总是比同步操作效率更低。"
+      ],
+      "user_answer": "同步操作会影响系统的响应速度，因为程序需要等待。",
+      "correct_answer": "同步操作会影响系统的响应速度，因为程序需要等待。",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，input()函数的主要作用是什么？",
+      "options": [
+        "将数据输出到屏幕",
+        "执行数学计算",
+        "从用户获取输入数据",
+        "定义变量"
+      ],
+      "user_answer": "从用户获取输入数据",
+      "correct_answer": "从用户获取输入数据",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪个函数用于在Python中向屏幕输出信息？",
+      "options": [
+        "print()",
+        "output()",
+        "input()",
+        "display()"
+      ],
+      "user_answer": "print()",
+      "correct_answer": "print()",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，input()函数返回的数据类型是什么？",
+      "options": [
+        "整数",
+        "浮点数",
+        "布尔值",
+        "字符串"
+      ],
+      "user_answer": "字符串",
+      "correct_answer": "字符串",
+      "is_correct": true
+    },
+    {
+      "question": "如果用户输入'小明'，执行代码 name = input('请输入你的名字：') 后，变量name的值是什么？",
+      "options": [
+        "name",
+        "'小明'",
+        "小明",
+        "请输入你的名字："
+      ],
+      "user_answer": "'小明'",
+      "correct_answer": "小明",
+      "is_correct": false
+    },
+    {
+      "question": "关于示例代码中的注释，以下哪项描述是正确的？",
+      "options": [
+        "注释会被Python解释器执行",
+        "注释可以替代实际的代码功能",
+        "注释必须写在代码行末尾",
+        "注释以#号开头，用于解释代码"
+      ],
+      "user_answer": "注释以#号开头，用于解释代码",
+      "correct_answer": "注释以#号开头，用于解释代码",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，`input('请输入你的名字：')` 这行代码的主要作用是什么？",
+      "options": [
+        "输出用户的名字到屏幕",
+        "计算用户输入数据的长度",
+        "将用户输入的数据直接打印出来",
+        "显示提示信息并等待用户输入数据"
+      ],
+      "user_answer": "显示提示信息并等待用户输入数据",
+      "correct_answer": "显示提示信息并等待用户输入数据",
+      "is_correct": true
+    },
+    {
+      "question": "在示例代码中，用户输入的名字'小明'被存储在哪个变量中？",
+      "options": [
+        "name",
+        "age",
+        "user",
+        "input"
+      ],
+      "user_answer": "name",
+      "correct_answer": "name",
+      "is_correct": true
+    },
+    {
+      "question": "执行`print('你好，' + name + '！欢迎学习输入输出概念。')`后，如果name变量值为'小红'，输出结果是什么？",
+      "options": [
+        "你好，name！欢迎学习输入输出概念。",
+        "你好，小红！欢迎学习输入输出概念。",
+        "你好，+ name +！欢迎学习输入输出概念。",
+        "name你好，！欢迎学习输入输出概念。"
+      ],
+      "user_answer": "你好，小红！欢迎学习输入输出概念。",
+      "correct_answer": "你好，小红！欢迎学习输入输出概念。",
+      "is_correct": true
+    },
+    {
+      "question": "关于示例代码中的第二次输入操作`age = input('请输入你的年龄：')`，下列说法正确的是？",
+      "options": [
+        "它会自动将输入转换为整数类型",
+        "它会在同一行输出用户的年龄",
+        "它将用户输入的年龄数据存储在age变量中",
+        "它不需要用户输入就会继续执行"
+      ],
+      "user_answer": "它将用户输入的年龄数据存储在age变量中",
+      "correct_answer": "它将用户输入的年龄数据存储在age变量中",
+      "is_correct": true
+    },
+    {
+      "question": "在`print(name + '的年龄是：' + age + '岁。')`这行代码中，加号(+)的作用是什么？",
+      "options": [
+        "数学加法运算",
+        "字符串拼接",
+        "逻辑与操作",
+        "变量声明"
+      ],
+      "user_answer": "字符串拼接",
+      "correct_answer": "字符串拼接",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，当用户输入无效数据时，以下哪种方法可以防止程序崩溃？",
+      "options": [
+        "使用if-else语句检查输入",
+        "使用for循环重新输入",
+        "使用try-except块捕获异常",
+        "使用print语句输出警告"
+      ],
+      "user_answer": "使用try-except块捕获异常",
+      "correct_answer": "使用try-except块捕获异常",
+      "is_correct": true
+    },
+    {
+      "question": "关于输入输出的描述，以下哪项是正确的？",
+      "options": [
+        "输入让程序获取信息，输出让程序展示结果",
+        "输入是数据离开系统的过程，输出是数据进入系统的过程",
+        "文件读写和网络通信不属于输入输出范畴",
+        "输入输出仅涉及用户与键盘、屏幕的交互"
+      ],
+      "user_answer": "输入让程序获取信息，输出让程序展示结果",
+      "correct_answer": "输入让程序获取信息，输出让程序展示结果",
+      "is_correct": true
+    }
+  ]
+}

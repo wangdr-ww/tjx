@@ -1,0 +1,143 @@
+{
+  "concept": "变量",
+  "concept_slug": "变量",
+  "topic": "python核心语法",
+  "quiz_time": "2025-10-21T15:49:36.921972",
+  "total_questions": 11,
+  "correct_count": 10,
+  "accuracy": 90.9090909090909,
+  "questions": [
+    {
+      "question": "在编程中，变量最贴切的比喻是什么？",
+      "options": [
+        "一个带标签的盒子，可以存放和更换物品",
+        "一个固定的数值，在程序运行中不会改变",
+        "一段执行特定任务的代码",
+        "一个数学公式，用于计算结果"
+      ],
+      "user_answer": "一个带标签的盒子，可以存放和更换物品",
+      "correct_answer": "一个带标签的盒子，可以存放和更换物品",
+      "is_correct": true
+    },
+    {
+      "question": "变量的哪个特性允许我们在程序运行过程中修改其存储的值？",
+      "options": [
+        "名称（标识符）",
+        "类型",
+        "作用域",
+        "可变性"
+      ],
+      "user_answer": "可变性",
+      "correct_answer": "可变性",
+      "is_correct": true
+    },
+    {
+      "question": "在Python代码 `name = '小明'` 中，`'小明'` 代表变量的什么？",
+      "options": [
+        "值",
+        "名称",
+        "类型",
+        "作用域"
+      ],
+      "user_answer": "值",
+      "correct_answer": "值",
+      "is_correct": true
+    },
+    {
+      "question": "根据储物柜类比，储物柜的编号对应变量的哪个方面？",
+      "options": [
+        "变量的值",
+        "变量的类型",
+        "变量的可变性",
+        "变量的名称"
+      ],
+      "user_answer": "变量的名称",
+      "correct_answer": "变量的名称",
+      "is_correct": true
+    },
+    {
+      "question": "以下关于变量名称（标识符）的描述，哪一项是正确的？",
+      "options": [
+        "它决定了变量在代码中的可见范围",
+        "它存储了变量的具体数据内容",
+        "它用于在代码中唯一地识别该变量",
+        "它定义了变量可以存储的数据种类"
+      ],
+      "user_answer": "它用于在代码中唯一地识别该变量",
+      "correct_answer": "它用于在代码中唯一地识别该变量",
+      "is_correct": true
+    },
+    {
+      "question": "在便签贴类比中，当喝掉一瓶牛奶后将便签上的数字从2改为1，这个操作主要演示了变量的哪个概念？",
+      "options": [
+        "变量的名称是固定的",
+        "变量的值可以被改变",
+        "变量必须先声明类型",
+        "变量的作用域是全局的"
+      ],
+      "user_answer": "变量的值可以被改变",
+      "correct_answer": "变量的值可以被改变",
+      "is_correct": true
+    },
+    {
+      "question": "根据代码 `age = 19` 和 `birth_year = 2024 - age`，birth_year 的值是多少？",
+      "options": [
+        "2005",
+        "2004",
+        "2006",
+        "2003"
+      ],
+      "user_answer": "2005",
+      "correct_answer": "2005",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪个变量名是合法的？",
+      "options": [
+        "1age",
+        "for",
+        "_name",
+        "my variable"
+      ],
+      "user_answer": "_name",
+      "correct_answer": "_name",
+      "is_correct": true
+    },
+    {
+      "question": "在 Python 中，一个变量是否可以存储不同类型的数据？",
+      "options": [
+        "永远不可以",
+        "可以，因为 Python 是动态类型语言",
+        "不可以，除非重新启动程序",
+        "只有在定义时指定类型才可以"
+      ],
+      "user_answer": "可以，因为 Python 是动态类型语言",
+      "correct_answer": "可以，因为 Python 是动态类型语言",
+      "is_correct": true
+    },
+    {
+      "question": "变量的生命周期通常是怎样的？",
+      "options": [
+        "永久存储在计算机中",
+        "只在定义它的代码行执行时存在",
+        "只在程序运行期间存在",
+        "即使关闭程序也不会消失"
+      ],
+      "user_answer": "只在定义它的代码行执行时存在",
+      "correct_answer": "只在程序运行期间存在",
+      "is_correct": false
+    },
+    {
+      "question": "代码 `print('新年龄:', age)` 输出什么，如果 age 的值是 19？",
+      "options": [
+        "新年龄: age",
+        "新年龄: 19",
+        "新年龄: 18",
+        "新年龄: 20"
+      ],
+      "user_answer": "新年龄: 19",
+      "correct_answer": "新年龄: 19",
+      "is_correct": true
+    }
+  ]
+}

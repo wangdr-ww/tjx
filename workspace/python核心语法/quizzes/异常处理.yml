@@ -1,0 +1,128 @@
+- question: 异常处理的主要目的是什么？
+  options:
+    A: 管理程序运行时可能出现的错误或异常情况
+    B: 让程序运行速度更快
+    C: 增加代码的复杂度
+    D: 替换所有的if-else判断
+  answer: A
+  explanation: 根据核心定义，异常处理是编程中一种用于管理程序运行时可能出现的错误或异常情况的机制，其核心目的是处理错误，而非提升速度或增加复杂度。
+- question: 在异常处理机制中，当错误发生时，程序会执行什么操作来通知系统有异常情况？
+  options:
+    A: 异常检测
+    B: 异常捕获
+    C: 异常处理
+    D: 异常抛出
+  answer: D
+  explanation: 根据关键特征描述，'异常抛出'是指当错误发生时，程序会'抛出'一个异常对象，这类似于发出警报，通知系统有异常情况。
+- question: 在编程中，通常使用哪种代码结构来'捕获'抛出的异常？
+  options:
+    A: if-else语句
+    B: for循环
+    C: switch-case语句
+    D: try-catch块
+  answer: D
+  explanation: 关键特征中明确指出，通过使用特定的代码结构（如 try-catch 块），程序可以'捕获'抛出的异常。
+- question: 以下哪一项是异常处理机制带来的直接好处？
+  options:
+    A: 确保了算法的最优性
+    B: 减少了代码行数
+    C: 提高了程序的健壮性
+    D: 自动修复了所有错误
+  answer: C
+  explanation: 根据关键特征，异常处理机制通过捕获和处理异常，确保了程序在意外情况下也能维持稳定运行，从而提高了程序的可靠性，即健壮性。
+- question: 根据提供的简单类比，程序中的'异常情况'最类似于开车时遇到的什么？
+  options:
+    A: 交通信号灯
+    B: 高速公路
+    C: 加油站
+    D: 路障
+  answer: D
+  explanation: 简单类比中明确提到：'想象一下你在开车时遇到一个路障（异常情况）'。因此，程序中的异常情况最类似于开车时遇到的路障。
+- question: 在给定的代码中，当除数为0时，哪个代码块会被执行？
+  options:
+    A: try块
+    B: except块
+    C: else块
+    D: finally块
+  answer: B
+  explanation: 当除数为0时，会抛出ZeroDivisionError异常，except ZeroDivisionError块会被执行，打印错误信息。
+- question: 在给定的代码中，如果没有发生异常，哪个代码块会被执行？
+  options:
+    A: try块和else块
+    B: except块和else块
+    C: else块和finally块
+    D: try块和finally块
+  answer: C
+  explanation: 如果没有发生异常，try块正常执行后，会执行else块（打印'计算成功完成'），然后无论是否发生异常都会执行finally块。
+- question: finally块在什么情况下会被执行？
+  options:
+    A: 仅当发生异常时
+    B: 仅当没有发生异常时
+    C: 无论是否发生异常都会执行
+    D: 只有当try块成功执行时
+  answer: C
+  explanation: finally块的设计目的是确保无论是否发生异常，其中的代码都会被执行，常用于资源清理等操作。
+- question: 在给定的代码中，如果除数为2，哪个代码块会打印'计算成功完成'？
+  options:
+    A: try块
+    B: else块
+    C: except块
+    D: finally块
+  answer: B
+  explanation: 当除数为2时，不会发生异常，try块执行后会执行else块，其中的print语句会输出'计算成功完成'。
+- question: 在异常处理中，else块的作用是什么？
+  options:
+    A: 处理所有类型的异常
+    B: 处理未被except捕获的异常
+    C: 在try块没有发生异常时执行
+    D: 在try块发生异常时执行
+  answer: C
+  explanation: else块在try块中的代码没有引发任何异常时执行，用于放置那些只有在没有异常时才应该运行的代码。
+- question: 在异常处理结构中，无论是否发生异常都会执行的代码块是哪个？
+  options:
+    A: try块
+    B: except块
+    C: else块
+    D: finally块
+  answer: D
+  explanation: finally块是异常处理结构中的可选部分，无论try块中是否发生异常，finally块中的代码都会被执行，常用于释放资源等清理工作。
+- question: 当try块中的代码没有引发任何异常时，哪个代码块会被执行？
+  options:
+    A: else块
+    B: except块
+    C: finally块
+    D: except和finally块
+  answer: A
+  explanation: else块是异常处理结构中的可选部分，仅在try块中的代码没有引发任何异常时执行。如果try块中发生了异常，程序会跳转到相应的except块，而不会执行else块。
+- question: 在Python异常处理中，用于捕获和处理特定类型异常（如ZeroDivisionError）的代码块是哪个？
+  options:
+    A: try块
+    B: except块
+    C: else块
+    D: finally块
+  answer: B
+  explanation: except块用于捕获和处理try块中可能引发的特定类型的异常。当try块中发生指定类型的异常时，程序会跳转到相应的except块执行异常处理代码。
+- question: 在异常处理结构中，哪个代码块包含可能引发异常的代码？
+  options:
+    A: try块
+    B: else块
+    C: finally块
+    D: except块
+  answer: A
+  explanation: try块包含可能引发异常的代码，程序会尝试执行这些语句。如果这些语句执行过程中发生了异常，程序会跳转到相应的except块进行异常处理。
+- question: 在异常处理中，finally块通常用于什么目的？
+  options:
+    A: 尝试执行可能出错的代码
+    B: 释放资源，如关闭文件
+    C: 在没有异常时执行额外代码
+    D: 处理特定类型的异常
+  answer: B
+  explanation: finally块通常用于执行清理操作，如释放资源、关闭文件等。无论try块中是否发生异常，finally块中的代码都会被执行，确保重要的清理工作不会因为异常而被跳过。
+- question: 在Python中，当我们需要针对不同类型的异常进行不同的处理时，应该使用以下哪种方法？
+  options:
+    A: 使用多个except块分别捕获不同类型的异常
+    B: 使用一个except块捕获所有异常
+    C: 使用多个if-else语句来检查错误类型
+    D: 在try块中预先检查所有可能的错误条件
+  answer: A
+  explanation: 根据内容，处理多种类型的异常时，应该使用多个`except`块来分别捕获不同类型的异常（如FileNotFoundError、PermissionError等），这样可以对每种异常进行针对性的处理，而不是使用一个通用的异常处理或预先检查所有条件。

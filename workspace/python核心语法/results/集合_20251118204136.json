@@ -1,0 +1,239 @@
+{
+  "concept": "集合",
+  "concept_slug": "集合",
+  "topic": "python核心语法",
+  "quiz_time": "2025-11-18T20:41:36.160304",
+  "total_questions": 19,
+  "correct_count": 13,
+  "accuracy": 68.42105263157895,
+  "questions": [
+    {
+      "question": "关于集合的核心定义，以下哪项描述是正确的？",
+      "options": [
+        "集合中的元素是有序且唯一的",
+        "集合中的元素是无序且唯一的",
+        "集合中的元素是有序且允许重复的",
+        "集合中的元素是无序且允许重复的"
+      ],
+      "user_answer": "集合中的元素是无序且唯一的",
+      "correct_answer": "集合中的元素是无序且唯一的",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，以下哪项操作是集合无法直接支持的？",
+      "options": [
+        "通过索引访问特定位置的元素",
+        "快速检查元素是否存在",
+        "自动去除重复元素",
+        "执行交集、并集等数学操作"
+      ],
+      "user_answer": "通过索引访问特定位置的元素",
+      "correct_answer": "通过索引访问特定位置的元素",
+      "is_correct": true
+    },
+    {
+      "question": "关于集合的唯一性特征，以下说法正确的是？",
+      "options": [
+        "集合会保留所有重复添加的元素",
+        "添加重复元素时集合会报错",
+        "集合会自动忽略重复添加的元素",
+        "集合允许有限次数的元素重复"
+      ],
+      "user_answer": "集合会自动忽略重复添加的元素",
+      "correct_answer": "集合会自动忽略重复添加的元素",
+      "is_correct": true
+    },
+    {
+      "question": "在大多数编程语言中，集合的元素必须满足什么要求？",
+      "options": [
+        "必须是数字类型",
+        "必须是可变对象",
+        "必须是可哈希的",
+        "必须是字符串类型"
+      ],
+      "user_answer": "必须是可哈希的",
+      "correct_answer": "必须是可哈希的",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪个类比最能体现集合的核心特征？",
+      "options": [
+        "图书馆的书架，书籍按顺序排列",
+        "购物清单，商品按购买顺序列出",
+        "班级花名册，包含唯一学号且顺序不重要",
+        "音乐播放列表，歌曲按添加顺序排列"
+      ],
+      "user_answer": "购物清单，商品按购买顺序列出",
+      "correct_answer": "班级花名册，包含唯一学号且顺序不重要",
+      "is_correct": false
+    },
+    {
+      "question": "在Python中，向集合{1, 2, 3}添加重复元素2后，集合会发生什么变化？",
+      "options": [
+        "集合变为{1, 2, 2, 3}",
+        "集合保持不变",
+        "集合变为{1, 3}",
+        "程序会报错"
+      ],
+      "user_answer": "集合保持不变",
+      "correct_answer": "集合保持不变",
+      "is_correct": true
+    },
+    {
+      "question": "如何检查元素4是否在集合my_set中？",
+      "options": [
+        "my_set.contains(4)",
+        "4 in my_set",
+        "my_set.find(4)",
+        "4 exists my_set"
+      ],
+      "user_answer": "my_set.find(4)",
+      "correct_answer": "4 in my_set",
+      "is_correct": false
+    },
+    {
+      "question": "集合set_a = {1, 2, 3}和set_b = {2, 3, 4}的并集是什么？",
+      "options": [
+        "{2, 3}",
+        "{1, 4}",
+        "{1, 2, 3, 4}",
+        "{1, 2, 3}"
+      ],
+      "user_answer": "{2, 3}",
+      "correct_answer": "{1, 2, 3, 4}",
+      "is_correct": false
+    },
+    {
+      "question": "在Python中，以下哪种方法可以计算两个集合的交集？",
+      "options": [
+        "set_a & set_b",
+        "set_a | set_b",
+        "set_a + set_b",
+        "set_a - set_b"
+      ],
+      "user_answer": "set_a & set_b",
+      "correct_answer": "set_a & set_b",
+      "is_correct": true
+    },
+    {
+      "question": "关于集合set_a = {1, 2, 3}和set_b = {2, 3, 4}的差集set_a - set_b，结果是什么？",
+      "options": [
+        "{1}",
+        "{4}",
+        "{2, 3}",
+        "{1, 2, 3, 4}"
+      ],
+      "user_answer": "{1, 2, 3, 4}",
+      "correct_answer": "{1}",
+      "is_correct": false
+    },
+    {
+      "question": "在Python中，以下哪个操作可以计算集合set_a和set_b的交集？",
+      "options": [
+        "set_a + set_b",
+        "set_a - set_b",
+        "set_a | set_b",
+        "set_a & set_b"
+      ],
+      "user_answer": "set_a + set_b",
+      "correct_answer": "set_a & set_b",
+      "is_correct": false
+    },
+    {
+      "question": "如果set_a = {1, 2, 3}，set_b = {2, 3, 4}，那么set_a - set_b的结果是什么？",
+      "options": [
+        "{1}",
+        "{2, 3}",
+        "{4}",
+        "{1, 2, 3, 4}"
+      ],
+      "user_answer": "{1, 2, 3, 4}",
+      "correct_answer": "{1}",
+      "is_correct": false
+    },
+    {
+      "question": "在Python集合操作中，以下哪种方法可以安全地删除元素（如果元素不存在不会报错）？",
+      "options": [
+        "remove()方法",
+        "delete()方法",
+        "pop()方法",
+        "discard()方法"
+      ],
+      "user_answer": "discard()方法",
+      "correct_answer": "discard()方法",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪个代码片段正确地创建了一个包含元素1, 2, 3的集合？",
+      "options": [
+        "my_set = {1, 2, 3}",
+        "my_set = [1, 2, 3]",
+        "my_set = (1, 2, 3)",
+        "my_set = '1, 2, 3'"
+      ],
+      "user_answer": "my_set = {1, 2, 3}",
+      "correct_answer": "my_set = {1, 2, 3}",
+      "is_correct": true
+    },
+    {
+      "question": "如果my_set = {1, 2, 3}，执行my_set.remove(1)后，my_set的值是什么？",
+      "options": [
+        "{1, 2, 3}",
+        "{2, 3}",
+        "{1, 2}",
+        "{3}"
+      ],
+      "user_answer": "{2, 3}",
+      "correct_answer": "{2, 3}",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，创建一个空集合的正确方式是什么？",
+      "options": [
+        "{}",
+        "set{}",
+        "[]",
+        "set()"
+      ],
+      "user_answer": "set()",
+      "correct_answer": "set()",
+      "is_correct": true
+    },
+    {
+      "question": "关于Python集合的特性，以下哪项描述是正确的？",
+      "options": [
+        "集合中的元素必须是可哈希的（不可变类型）",
+        "集合允许存储重复的元素",
+        "集合中的元素是有序的，可以通过索引访问",
+        "集合在检查元素是否存在时效率低于列表"
+      ],
+      "user_answer": "集合中的元素必须是可哈希的（不可变类型）",
+      "correct_answer": "集合中的元素必须是可哈希的（不可变类型）",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，向集合添加元素应该使用哪个方法？",
+      "options": [
+        "append()",
+        "insert()",
+        "update()",
+        "add()"
+      ],
+      "user_answer": "add()",
+      "correct_answer": "add()",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪个集合操作是正确的？",
+      "options": [
+        "{1, 2, [3, 4]}",
+        "{[1, 2], 3, 4}",
+        "{1, 2, (3, 4)}",
+        "{{1, 2}, 3, 4}"
+      ],
+      "user_answer": "{1, 2, (3, 4)}",
+      "correct_answer": "{1, 2, (3, 4)}",
+      "is_correct": true
+    }
+  ]
+}

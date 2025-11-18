@@ -1,0 +1,179 @@
+{
+  "concept": "元组",
+  "concept_slug": "元组",
+  "topic": "python核心语法",
+  "quiz_time": "2025-11-18T20:32:57.768725",
+  "total_questions": 14,
+  "correct_count": 14,
+  "accuracy": 100.0,
+  "questions": [
+    {
+      "question": "关于元组的核心定义，以下哪项描述最准确？",
+      "options": [
+        "元组是一个无序的、可变的数据集合",
+        "元组是一个无序的、不可变的数据集合",
+        "元组是一个有序的、不可变的数据集合",
+        "元组是一个有序的、可变的数据集合"
+      ],
+      "user_answer": "元组是一个有序的、不可变的数据集合",
+      "correct_answer": "元组是一个有序的、不可变的数据集合",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪项不是元组的关键特征？",
+      "options": [
+        "有序性",
+        "不可变性",
+        "可包含任意类型",
+        "元素类型必须相同"
+      ],
+      "user_answer": "元素类型必须相同",
+      "correct_answer": "元素类型必须相同",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，通常使用什么符号来定义元组？",
+      "options": [
+        "圆括号 ()",
+        "花括号 {}",
+        "方括号 []",
+        "尖括号 <>"
+      ],
+      "user_answer": "圆括号 ()",
+      "correct_answer": "圆括号 ()",
+      "is_correct": true
+    },
+    {
+      "question": "根据元组的简单类比，以下哪个例子最能体现元组的特性？",
+      "options": [
+        "一个可随时添加页面的笔记本",
+        "一个可以重新排列的购物清单",
+        "一张打印后不能更改的电影票座位信息",
+        "一个可以修改内容的便签"
+      ],
+      "user_answer": "一张打印后不能更改的电影票座位信息",
+      "correct_answer": "一张打印后不能更改的电影票座位信息",
+      "is_correct": true
+    },
+    {
+      "question": "在Python代码示例中，如何访问元组 `person` 中的年龄（第二个元素）？",
+      "options": [
+        "person[0]",
+        "person[3]",
+        "person[2]",
+        "person[1]"
+      ],
+      "user_answer": "person[1]",
+      "correct_answer": "person[1]",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，关于元组的不可变性，以下描述正确的是？",
+      "options": [
+        "元组创建后可以修改其中的元素",
+        "元组创建后不能修改其中的元素",
+        "元组只能包含数字类型元素",
+        "元组可以转换为列表，但不能转换回来"
+      ],
+      "user_answer": "元组创建后不能修改其中的元素",
+      "correct_answer": "元组创建后不能修改其中的元素",
+      "is_correct": true
+    },
+    {
+      "question": "对于元组person = ('张三', 25, '北京')，以下哪个操作可以正确获取第二个元素（年龄）？",
+      "options": [
+        "person[0]",
+        "person[2]",
+        "person[1]",
+        "person[3]"
+      ],
+      "user_answer": "person[1]",
+      "correct_answer": "person[1]",
+      "is_correct": true
+    },
+    {
+      "question": "关于元组的嵌套，以下哪个描述是正确的？",
+      "options": [
+        "元组只能包含基本数据类型，不能嵌套其他元组",
+        "元组可以嵌套其他元组或列表",
+        "嵌套的元组可以被单独修改",
+        "元组最多只能嵌套一层"
+      ],
+      "user_answer": "元组可以嵌套其他元组或列表",
+      "correct_answer": "元组可以嵌套其他元组或列表",
+      "is_correct": true
+    },
+    {
+      "question": "对于元组person = ('张三', 25, '北京')，len(person)的返回值是多少？",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "user_answer": "3",
+      "correct_answer": "3",
+      "is_correct": true
+    },
+    {
+      "question": "以下关于元组解包的描述，哪个是正确的？",
+      "options": [
+        "元组解包是将多个变量打包成一个元组",
+        "元组解包只能用于包含两个元素的元组",
+        "元组解包会修改原始元组的内容",
+        "元组解包是将元组的元素分别赋值给多个变量"
+      ],
+      "user_answer": "元组解包是将元组的元素分别赋值给多个变量",
+      "correct_answer": "元组解包是将元组的元素分别赋值给多个变量",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，关于元组和列表的主要区别，以下哪项描述是正确的？",
+      "options": [
+        "列表可以修改元素，而元组不能",
+        "元组可以修改元素，而列表不能",
+        "元组和列表都可以修改元素",
+        "元组和列表都不能修改元素"
+      ],
+      "user_answer": "列表可以修改元素，而元组不能",
+      "correct_answer": "列表可以修改元素，而元组不能",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，如何正确定义一个只包含一个元素（例如数字1）的元组？",
+      "options": [
+        "single_tuple = (1)",
+        "single_tuple = (1,)",
+        "single_tuple = [1]",
+        "single_tuple = 1,"
+      ],
+      "user_answer": "single_tuple = (1,)",
+      "correct_answer": "single_tuple = (1,)",
+      "is_correct": true
+    },
+    {
+      "question": "以下关于元组不可变性的说法，哪一项是正确的？",
+      "options": [
+        "不可变性是指创建后不能修改元素，但可以访问",
+        "不可变性意味着元组完全不能被访问",
+        "不可变性是指元组不能有多个元素",
+        "不可变性是指元组不能作为函数的返回值"
+      ],
+      "user_answer": "不可变性是指创建后不能修改元素，但可以访问",
+      "correct_answer": "不可变性是指创建后不能修改元素，但可以访问",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，以下哪种数据结构可以作为字典的键（key）？",
+      "options": [
+        "列表（List）",
+        "元组（Tuple）",
+        "集合（Set）",
+        "字典（Dictionary）"
+      ],
+      "user_answer": "元组（Tuple）",
+      "correct_answer": "元组（Tuple）",
+      "is_correct": true
+    }
+  ]
+}

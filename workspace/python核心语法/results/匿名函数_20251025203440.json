@@ -1,0 +1,191 @@
+{
+  "concept": "匿名函数",
+  "concept_slug": "匿名函数",
+  "topic": "python核心语法",
+  "quiz_time": "2025-10-25T20:34:40.847704",
+  "total_questions": 15,
+  "correct_count": 15,
+  "accuracy": 100.0,
+  "questions": [
+    {
+      "question": "匿名函数最核心的定义特征是什么？",
+      "options": [
+        "具有复杂的逻辑结构",
+        "必须存储在变量中",
+        "只能用于数学运算",
+        "没有具体的函数名称"
+      ],
+      "user_answer": "没有具体的函数名称",
+      "correct_answer": "没有具体的函数名称",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪一项是匿名函数的主要应用场景？",
+      "options": [
+        "定义复杂的类和方法",
+        "作为参数传递给其他函数",
+        "作为程序的主入口函数",
+        "用于声明全局配置常量"
+      ],
+      "user_answer": "作为参数传递给其他函数",
+      "correct_answer": "作为参数传递给其他函数",
+      "is_correct": true
+    },
+    {
+      "question": "关于匿名函数的'简洁性'，以下描述最准确的是？",
+      "options": [
+        "它必须包含至少三个参数",
+        "它能够自动处理所有异常",
+        "它比普通函数的运行速度更快",
+        "它通常用一行或少量代码表示简单逻辑"
+      ],
+      "user_answer": "它通常用一行或少量代码表示简单逻辑",
+      "correct_answer": "它通常用一行或少量代码表示简单逻辑",
+      "is_correct": true
+    },
+    {
+      "question": "文档中'临时工'的类比是为了说明匿名函数的哪个特性？",
+      "options": [
+        "高薪",
+        "永久性",
+        "无需名称的临时性",
+        "管理团队"
+      ],
+      "user_answer": "无需名称的临时性",
+      "correct_answer": "无需名称的临时性",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，用于定义匿名函数的关键字是什么？",
+      "options": [
+        "lambda",
+        "func",
+        "def",
+        "anonymous"
+      ],
+      "user_answer": "lambda",
+      "correct_answer": "lambda",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，`sorted(numbers, key=lambda x: x * x)` 这行代码的作用是什么？",
+      "options": [
+        "对列表numbers中的元素进行平方运算",
+        "将列表numbers中的每个元素替换为其平方值",
+        "根据元素的平方值对原列表进行排序，输出原元素",
+        "过滤出列表numbers中的平方数"
+      ],
+      "user_answer": "根据元素的平方值对原列表进行排序，输出原元素",
+      "correct_answer": "根据元素的平方值对原列表进行排序，输出原元素",
+      "is_correct": true
+    },
+    {
+      "question": "对于列表 `numbers = [4, 1, 3, 2]`，执行 `sorted(numbers, key=lambda x: x * x)` 后，输出的第一个元素是什么？",
+      "options": [
+        "4",
+        "1",
+        "16",
+        "2"
+      ],
+      "user_answer": "1",
+      "correct_answer": "1",
+      "is_correct": true
+    },
+    {
+      "question": "`map(lambda x: x * 2, numbers)` 这行代码返回的是什么类型？",
+      "options": [
+        "一个列表",
+        "一个迭代器",
+        "一个元组",
+        "一个生成器表达式"
+      ],
+      "user_answer": "一个迭代器",
+      "correct_answer": "一个迭代器",
+      "is_correct": true
+    },
+    {
+      "question": "假设 `numbers = [1, 2, 3]`，执行 `list(map(lambda x: x * 2, numbers))` 的结果是什么？",
+      "options": [
+        "[2, 4, 6]",
+        "[1, 4, 9]",
+        "[1, 2, 3]",
+        "[3, 6, 9]"
+      ],
+      "user_answer": "[2, 4, 6]",
+      "correct_answer": "[2, 4, 6]",
+      "is_correct": true
+    },
+    {
+      "question": "在 `sorted(numbers, key=lambda x: x * x)` 中，匿名函数 `lambda x: x * x` 的主要作用是什么？",
+      "options": [
+        "修改列表numbers中的元素值",
+        "生成排序后新列表的元素",
+        "过滤掉列表中的非数字元素",
+        "作为排序时比较元素大小的直接依据"
+      ],
+      "user_answer": "作为排序时比较元素大小的直接依据",
+      "correct_answer": "作为排序时比较元素大小的直接依据",
+      "is_correct": true
+    },
+    {
+      "question": "根据内容，匿名函数最适合在什么情况下使用？",
+      "options": [
+        "当函数逻辑复杂且需要多次调用时",
+        "当函数需要命名以便重复使用时",
+        "当函数逻辑简单且只使用一次时",
+        "当函数需要处理大量数据时"
+      ],
+      "user_answer": "当函数逻辑简单且只使用一次时",
+      "correct_answer": "当函数逻辑简单且只使用一次时",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，匿名函数的语法是什么？",
+      "options": [
+        "def 参数: 表达式",
+        "function(参数) { 表达式 }",
+        "lambda 参数: 表达式",
+        "匿名函数 参数: 表达式"
+      ],
+      "user_answer": "lambda 参数: 表达式",
+      "correct_answer": "lambda 参数: 表达式",
+      "is_correct": true
+    },
+    {
+      "question": "关于匿名函数和普通函数的区别，以下哪项是正确的？",
+      "options": [
+        "匿名函数有名称，普通函数没有名称",
+        "匿名函数没有名称，通常用于简单任务；普通函数有名称，可重复调用",
+        "匿名函数适合复杂逻辑，普通函数适合简单任务",
+        "匿名函数在所有语言中语法相同"
+      ],
+      "user_answer": "匿名函数没有名称，通常用于简单任务；普通函数有名称，可重复调用",
+      "correct_answer": "匿名函数没有名称，通常用于简单任务；普通函数有名称，可重复调用",
+      "is_correct": true
+    },
+    {
+      "question": "在什么情况下不建议使用匿名函数？",
+      "options": [
+        "当函数逻辑复杂或需要多次调用时",
+        "当作为参数传递给map函数时",
+        "当函数逻辑简单且只使用一次时",
+        "当想保持代码简洁时"
+      ],
+      "user_answer": "当函数逻辑复杂或需要多次调用时",
+      "correct_answer": "当函数逻辑复杂或需要多次调用时",
+      "is_correct": true
+    },
+    {
+      "question": "关于匿名函数在不同编程语言中的实现，以下哪项是正确的？",
+      "options": [
+        "匿名函数在Java中通过函数式接口实现，概念相似但语法可能不同",
+        "Python中的匿名函数称为箭头函数",
+        "所有语言的匿名函数语法和名称都相同",
+        "JavaScript中的匿名函数只能用def定义"
+      ],
+      "user_answer": "匿名函数在Java中通过函数式接口实现，概念相似但语法可能不同",
+      "correct_answer": "匿名函数在Java中通过函数式接口实现，概念相似但语法可能不同",
+      "is_correct": true
+    }
+  ]
+}

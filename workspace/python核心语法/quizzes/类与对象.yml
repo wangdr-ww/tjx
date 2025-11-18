@@ -1,0 +1,122 @@
+- question: 在面向对象编程中，关于'类'与'对象'的关系，以下哪个比喻最准确？
+  options:
+    A: 类是设计图，对象是根据设计图制造出的具体产品
+    B: 类是具体的产品，对象是产品的使用说明书
+    C: 类是原材料，对象是加工后的半成品
+    D: 类是操作指南，对象是执行操作的工具
+  answer: A
+  explanation: 根据内容中的核心定义和类比，类被描述为蓝图或模板（如汽车设计图），而对象是类的具体实例（如真实的汽车）。因此，'类是设计图，对象是根据设计图制造出的具体产品'最准确地反映了这种关系。
+- question: 在面向对象编程中，'实例化'指的是什么过程？
+  options:
+    A: 通过类创建对象
+    B: 修改类的属性值
+    C: 定义类的方法
+    D: 销毁一个对象
+  answer: A
+  explanation: 根据内容中的关键特征部分，实例化被明确定义为'通过类创建对象的过程'，并用模具制造饼干的类比进行说明。因此，'通过类创建对象'是实例化的正确描述。
+- question: 以下哪项是'类'中定义的元素，用于描述对象的行为或操作？
+  options:
+    A: 属性
+    B: 方法
+    C: 封装
+    D: 实例
+  answer: B
+  explanation: 在核心定义和关键特征中，方法被描述为对象可以执行的操作或行为（例如，一个人可以说话、走路）。属性是对象的特征或数据，封装是捆绑数据和方法的特性，实例是对象的同义词。因此，'方法'是描述行为或操作的正确选项。
+- question: 关于'封装'的概念，以下哪项描述是正确的？
+  options:
+    A: 封装指的是一个类可以创建多个对象
+    B: 封装指的是将数据（属性）和操作数据的方法捆绑在一起，形成一个独立单元
+    C: 封装指的是对象属性值的不同
+    D: 封装指的是类与类之间的继承关系
+  answer: B
+  explanation: 在关键特征中，封装被定义为'类将数据（属性）和操作数据的方法捆绑在一起，形成一个独立的单元'，这提高了安全性和代码模块化。其他选项描述的是实例化、对象属性差异或继承，与封装无关。
+- question: 根据汽车设计图与真实汽车的类比，以下哪项说法是错误的？
+  options:
+    A: 汽车设计图相当于类，定义了汽车的部件和功能
+    B: 真实汽车相当于对象，是类的具体实例
+    C: 你可以开动真实汽车（调用方法），但无法开动设计图
+    D: 设计图本身也可以像汽车一样被直接使用
+  answer: D
+  explanation: 在类比1中，类（设计图）是抽象概念，不能直接使用（如开动），而对象（真实汽车）是具体、可用的实体。因此，'设计图本身也可以像汽车一样被直接使用'是错误的说法，它混淆了类与对象的本质区别。
+- question: 在Python中，根据给定的Dog类，创建对象my_dog时使用的代码是什么？
+  options:
+    A: Dog my_dog = Dog('Buddy', 3)
+    B: my_dog = Dog('Buddy', 3)
+    C: my_dog = new Dog('Buddy', 3)
+    D: my_dog = Dog.create('Buddy', 3)
+  answer: B
+  explanation: 在Python中，创建类的对象（实例化）不需要使用new关键字，直接使用类名加括号并传入参数即可，如my_dog = Dog('Buddy',
+    3)。
+- question: 在Dog类中，bark方法的作用是什么？
+  options:
+    A: 返回狗的详细信息
+    B: 设置狗的年龄
+    C: 打印狗在吠叫的信息
+    D: 创建一只新的狗
+  answer: C
+  explanation: bark方法中使用了print函数输出狗的名字和吠叫信息，例如执行my_dog.bark()会打印'Buddy 在汪汪叫！'。
+- question: 执行 `print(my_dog.get_info())` 会输出什么？
+  options:
+    A: 这只狗叫 Buddy，今年 3 岁。
+    B: Buddy 在汪汪叫！
+    C: 这只狗叫 Max，今年 5 岁。
+    D: my_dog 在汪汪叫！
+  answer: A
+  explanation: get_info方法返回一个格式化的字符串，包含狗的名字和年龄。对于my_dog对象（name为'Buddy'，age为3），返回的字符串就是'这只狗叫
+    Buddy，今年 3 岁。'。
+- question: 在Dog类中，`self.name = name` 这行代码的作用是什么？
+  options:
+    A: 定义一个名为name的局部变量
+    B: 调用类的外部函数
+    C: 打印狗的名字
+    D: 将参数name的值赋给对象的name属性
+  answer: D
+  explanation: 在类的方法中（通常是__init__初始化方法），self代表当前对象实例。`self.name = name` 将传入的name参数值赋给该对象的name属性，从而每个对象都可以拥有自己独特的名字。
+- question: 根据代码，`your_dog` 对象的年龄属性（age）是多少？
+  options:
+    A: '3'
+    B: Buddy
+    C: '5'
+    D: Max
+  answer: C
+  explanation: 对象your_dog是通过`Dog('Max', 5)`创建的。第二个参数5被传递给了__init__方法并赋值给了self.age，所以your_dog的age属性是5。
+- question: 在Python中，创建Dog类的对象时，哪个特殊方法会被自动调用以初始化对象的属性？
+  options:
+    A: start
+    B: create
+    C: main
+    D: __init__
+  answer: D
+  explanation: __init__是一个特殊方法，在创建对象时自动调用，用于初始化对象的属性（如name和age）。
+- question: 在Dog类的方法定义中，参数'self'代表什么？
+  options:
+    A: 类的名称
+    B: 父类
+    C: 对象自身
+    D: 方法的返回值
+  answer: C
+  explanation: self代表对象自身，用于在类的方法中访问对象的属性和其他方法。
+- question: 根据代码示例，执行your_dog.bark()会输出什么？
+  options:
+    A: Max在汪汪叫！
+    B: 这只狗叫Max，今年5岁。
+    C: Buddy在汪汪叫！
+    D: 我的狗叫Buddy
+  answer: A
+  explanation: your_dog是通过Dog('Max', 5)创建的，其name属性为'Max'，因此调用bark()方法会输出'Max在汪汪叫！'。
+- question: 类和对象的主要区别是什么？
+  options:
+    A: 类占用内存，对象不占用内存
+    B: 类是具体实例，对象是抽象模板
+    C: 类定义属性和方法，对象是类的具体实例
+    D: 对象只能有一个，类可以有多个
+  answer: C
+  explanation: 类是一个抽象模板，定义了属性和方法；对象是类的具体实例，占用内存并有具体属性值。
+- question: 在面向对象编程中，通常如何识别需要设计的类？
+  options:
+    A: 根据问题域中的'动词'
+    B: 根据问题域中的'名词'
+    C: 根据编程语言的语法
+    D: 根据代码的行数
+  answer: B
+  explanation: 通常根据问题域中的'名词'（如'狗'、'猫'、'主人'）来识别类，这些名词代表实体，可以设计成类。

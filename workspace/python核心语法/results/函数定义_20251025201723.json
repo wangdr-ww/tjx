@@ -1,0 +1,191 @@
+{
+  "concept": "函数定义",
+  "concept_slug": "函数定义",
+  "topic": "python核心语法",
+  "quiz_time": "2025-10-25T20:17:23.219243",
+  "total_questions": 15,
+  "correct_count": 15,
+  "accuracy": 100.0,
+  "questions": [
+    {
+      "question": "在编程中，函数定义的主要目的是什么？",
+      "options": [
+        "增加代码的复杂度",
+        "创建一个可重用的代码块",
+        "提高程序的运行速度",
+        "减少变量的使用"
+      ],
+      "user_answer": "创建一个可重用的代码块",
+      "correct_answer": "创建一个可重用的代码块",
+      "is_correct": true
+    },
+    {
+      "question": "函数定义中，用于唯一标识并调用函数的部分是什么？",
+      "options": [
+        "参数",
+        "函数体",
+        "函数名",
+        "返回值"
+      ],
+      "user_answer": "函数名",
+      "correct_answer": "函数名",
+      "is_correct": true
+    },
+    {
+      "question": "在函数的类比中，将函数比作'自动咖啡机'时，参数相当于什么？",
+      "options": [
+        "放入咖啡机的原料",
+        "咖啡机产出的咖啡",
+        "咖啡机的型号",
+        "咖啡机内部的加工过程"
+      ],
+      "user_answer": "放入咖啡机的原料",
+      "correct_answer": "放入咖啡机的原料",
+      "is_correct": true
+    },
+    {
+      "question": "函数体中包含什么内容？",
+      "options": [
+        "函数内部执行的代码块和逻辑",
+        "函数执行完成后返回的结果",
+        "函数可以接受的输入值",
+        "用于调用函数的标识符"
+      ],
+      "user_answer": "函数内部执行的代码块和逻辑",
+      "correct_answer": "函数内部执行的代码块和逻辑",
+      "is_correct": true
+    },
+    {
+      "question": "如果函数没有显式返回值，在Python中通常会返回什么？",
+      "options": [
+        "0",
+        "空字符串",
+        "None",
+        "True"
+      ],
+      "user_answer": "None",
+      "correct_answer": "None",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，用于定义函数的关键字是什么？",
+      "options": [
+        "function",
+        "def",
+        "define",
+        "func"
+      ],
+      "user_answer": "def",
+      "correct_answer": "def",
+      "is_correct": true
+    },
+    {
+      "question": "在给定的代码中，函数add_numbers的返回值是什么？",
+      "options": [
+        "a + b",
+        "sum_result",
+        "result",
+        "两个数的和是: 8"
+      ],
+      "user_answer": "result",
+      "correct_answer": "result",
+      "is_correct": true
+    },
+    {
+      "question": "在函数调用add_numbers(3, 5)中，数字3和5被称为什么？",
+      "options": [
+        "函数名",
+        "参数",
+        "返回值",
+        "实参"
+      ],
+      "user_answer": "实参",
+      "correct_answer": "实参",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪行代码正确地调用了add_numbers函数并将结果存储在变量中？",
+      "options": [
+        "result = def add_numbers(3, 5)",
+        "sum_result = add_numbers(3, 5)",
+        "add_numbers(3, 5) = sum_result",
+        "return add_numbers(3, 5)"
+      ],
+      "user_answer": "sum_result = add_numbers(3, 5)",
+      "correct_answer": "sum_result = add_numbers(3, 5)",
+      "is_correct": true
+    },
+    {
+      "question": "在函数定义def add_numbers(a, b):中，a和b被称为什么？",
+      "options": [
+        "实参",
+        "返回值",
+        "形参",
+        "函数体"
+      ],
+      "user_answer": "形参",
+      "correct_answer": "形参",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，调用函数 `add_numbers(3, 5)` 并将返回值存储在变量 `sum_result` 中，这体现了函数的哪个主要好处？",
+      "options": [
+        "调试方便",
+        "模块化",
+        "可读性",
+        "代码重用"
+      ],
+      "user_answer": "代码重用",
+      "correct_answer": "代码重用",
+      "is_correct": true
+    },
+    {
+      "question": "关于函数参数和返回值的描述，以下哪项是正确的？",
+      "options": [
+        "函数可以没有返回值，也可以没有参数",
+        "函数可以没有参数，但必须有返回值",
+        "所有函数都必须有参数和返回值",
+        "函数如果没有返回值，则无法被调用"
+      ],
+      "user_answer": "函数可以没有返回值，也可以没有参数",
+      "correct_answer": "函数可以没有返回值，也可以没有参数",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，如果一个函数没有显式返回任何值，那么它的返回值是什么？",
+      "options": [
+        "空字符串",
+        "None",
+        "0",
+        "True"
+      ],
+      "user_answer": "None",
+      "correct_answer": "None",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪个建议有助于避免在函数定义中出错？",
+      "options": [
+        "所有函数都必须有多个参数",
+        "避免使用注释",
+        "只使用全局变量",
+        "确保参数类型正确"
+      ],
+      "user_answer": "确保参数类型正确",
+      "correct_answer": "确保参数类型正确",
+      "is_correct": true
+    },
+    {
+      "question": "函数的主要好处不包括以下哪一项？",
+      "options": [
+        "增加代码长度",
+        "模块化",
+        "代码重用",
+        "提高可读性"
+      ],
+      "user_answer": "增加代码长度",
+      "correct_answer": "增加代码长度",
+      "is_correct": true
+    }
+  ]
+}

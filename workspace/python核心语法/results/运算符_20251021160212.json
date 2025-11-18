@@ -1,0 +1,155 @@
+{
+  "concept": "运算符",
+  "concept_slug": "运算符",
+  "topic": "python核心语法",
+  "quiz_time": "2025-10-21T16:02:12.594814",
+  "total_questions": 12,
+  "correct_count": 12,
+  "accuracy": 100.0,
+  "questions": [
+    {
+      "question": "在编程中，运算符的主要作用是什么？",
+      "options": [
+        "存储数据值",
+        "对变量、值或表达式执行特定操作",
+        "定义变量名称",
+        "创建程序注释"
+      ],
+      "user_answer": "对变量、值或表达式执行特定操作",
+      "correct_answer": "对变量、值或表达式执行特定操作",
+      "is_correct": true
+    },
+    {
+      "question": "在表达式 `a + b` 中，`a` 和 `b` 被称为什么？",
+      "options": [
+        "运算符",
+        "优先级",
+        "操作数",
+        "结合性"
+      ],
+      "user_answer": "操作数",
+      "correct_answer": "操作数",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪种类比最适合描述比较运算符的功能？",
+      "options": [
+        "天平",
+        "食谱",
+        "开关组合",
+        "菜刀和锅铲"
+      ],
+      "user_answer": "天平",
+      "correct_answer": "天平",
+      "is_correct": true
+    },
+    {
+      "question": "在复杂表达式中，决定不同运算符执行顺序的是什么？",
+      "options": [
+        "操作数类型",
+        "优先级规则",
+        "运算符颜色",
+        "代码缩进"
+      ],
+      "user_answer": "优先级规则",
+      "correct_answer": "优先级规则",
+      "is_correct": true
+    },
+    {
+      "question": "逻辑运算符 `and` 在厨房类比中类似于什么？",
+      "options": [
+        "把两种食材混合",
+        "去掉不需要的部分",
+        "判断两盘菜重量是否相同",
+        "两个开关都必须打开灯才亮"
+      ],
+      "user_answer": "两个开关都必须打开灯才亮",
+      "correct_answer": "两个开关都必须打开灯才亮",
+      "is_correct": true
+    },
+    {
+      "question": "运算符的哪个特性决定了当多个相同优先级的运算符出现时的执行方向？",
+      "options": [
+        "结合性",
+        "操作数要求",
+        "类型多样性",
+        "符号形状"
+      ],
+      "user_answer": "结合性",
+      "correct_answer": "结合性",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，表达式 `10 == 3` 的结果是什么？",
+      "options": [
+        "True",
+        "10",
+        "False",
+        "3"
+      ],
+      "user_answer": "False",
+      "correct_answer": "False",
+      "is_correct": true
+    },
+    {
+      "question": "逻辑运算符 `and` 在什么情况下返回True？",
+      "options": [
+        "两个条件都为真",
+        "两个条件都为假",
+        "任意一个条件为真",
+        "第一个条件为真"
+      ],
+      "user_answer": "两个条件都为真",
+      "correct_answer": "两个条件都为真",
+      "is_correct": true
+    },
+    {
+      "question": "在表达式 `(num1 > 5) and (num2 < 5)` 中，如果num1=10, num2=3，结果是什么？",
+      "options": [
+        "False",
+        "3",
+        "10",
+        "True"
+      ],
+      "user_answer": "True",
+      "correct_answer": "True",
+      "is_correct": true
+    },
+    {
+      "question": "表达式 `(num1 < 5) or (num2 > 5)` 在num1=10, num2=3时的结果是？",
+      "options": [
+        "True",
+        "3",
+        "10",
+        "False"
+      ],
+      "user_answer": "False",
+      "correct_answer": "False",
+      "is_correct": true
+    },
+    {
+      "question": "运算符和函数的主要区别是什么？",
+      "options": [
+        "运算符更灵活，函数更高效",
+        "运算符是符号，函数是命名的代码块",
+        "函数只能处理数字，运算符可以处理所有类型",
+        "运算符必须用括号调用，函数不需要"
+      ],
+      "user_answer": "运算符是符号，函数是命名的代码块",
+      "correct_answer": "运算符是符号，函数是命名的代码块",
+      "is_correct": true
+    },
+    {
+      "question": "关于运算符优先级，以下哪项描述是正确的？",
+      "options": [
+        "所有运算符优先级相同",
+        "加法总是比乘法先执行",
+        "优先级定义了表达式中运算符的执行顺序",
+        "Python中没有运算符优先级规则"
+      ],
+      "user_answer": "优先级定义了表达式中运算符的执行顺序",
+      "correct_answer": "优先级定义了表达式中运算符的执行顺序",
+      "is_correct": true
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "concept": "条件语句",
+  "concept_slug": "条件语句",
+  "topic": "python核心语法",
+  "quiz_time": "2025-10-22T18:14:02.906667",
+  "total_questions": 12,
+  "correct_count": 11,
+  "accuracy": 91.66666666666666,
+  "questions": [
+    {
+      "question": "条件语句在编程中主要扮演什么角色？",
+      "options": [
+        "用于重复执行代码",
+        "用于定义变量",
+        "用于根据条件真假决定执行哪部分代码",
+        "用于数学计算"
+      ],
+      "user_answer": "用于根据条件真假决定执行哪部分代码",
+      "correct_answer": "用于根据条件真假决定执行哪部分代码",
+      "is_correct": true
+    },
+    {
+      "question": "条件语句的判断基于什么类型的表达式？",
+      "options": [
+        "字符串表达式",
+        "布尔表达式",
+        "算术表达式",
+        "赋值表达式"
+      ],
+      "user_answer": "布尔表达式",
+      "correct_answer": "布尔表达式",
+      "is_correct": true
+    },
+    {
+      "question": "在条件语句中，如果条件为假，程序会如何执行？",
+      "options": [
+        "停止程序运行",
+        "总是执行另一段指定的代码",
+        "重复执行条件判断",
+        "可能执行另一段代码或直接跳过"
+      ],
+      "user_answer": "可能执行另一段代码或直接跳过",
+      "correct_answer": "可能执行另一段代码或直接跳过",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪个关键字通常用于条件语句中？",
+      "options": [
+        "for",
+        "while",
+        "if",
+        "def"
+      ],
+      "user_answer": "if",
+      "correct_answer": "if",
+      "is_correct": true
+    },
+    {
+      "question": "在'带伞出门'的类比中，什么相当于程序中的条件？",
+      "options": [
+        "带伞的行动",
+        "出门的决定",
+        "天气是否下雨",
+        "人的思考过程"
+      ],
+      "user_answer": "天气是否下雨",
+      "correct_answer": "天气是否下雨",
+      "is_correct": true
+    },
+    {
+      "question": "条件语句的主要优点是什么？",
+      "options": [
+        "提高代码执行速度",
+        "让程序适应多种情况",
+        "减少代码行数",
+        "简化变量命名"
+      ],
+      "user_answer": "让程序适应多种情况",
+      "correct_answer": "让程序适应多种情况",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，当if条件为假时，程序会执行什么操作？",
+      "options": [
+        "执行if代码块中的语句",
+        "自动重新检查条件",
+        "程序会报错",
+        "执行else代码块中的语句（如果存在）"
+      ],
+      "user_answer": "执行else代码块中的语句（如果存在）",
+      "correct_answer": "执行else代码块中的语句（如果存在）",
+      "is_correct": true
+    },
+    {
+      "question": "关于条件语句中的条件，以下哪项描述是正确的？",
+      "options": [
+        "条件通常是一个布尔表达式，结果为True或False",
+        "条件必须是整数类型",
+        "条件只能是字符串比较",
+        "条件必须是复杂的逻辑运算"
+      ],
+      "user_answer": "条件通常是一个布尔表达式，结果为True或False",
+      "correct_answer": "条件通常是一个布尔表达式，结果为True或False",
+      "is_correct": true
+    },
+    {
+      "question": "在Python条件语句中，代码块的归属是通过什么来确定的？",
+      "options": [
+        "大括号{}",
+        "缩进",
+        "分号;",
+        "圆括号()"
+      ],
+      "user_answer": "缩进",
+      "correct_answer": "缩进",
+      "is_correct": true
+    },
+    {
+      "question": "关于嵌套条件语句，以下说法正确的是？",
+      "options": [
+        "Python不支持条件语句的嵌套",
+        "嵌套条件语句只能嵌套一层",
+        "嵌套条件语句会降低程序效率，应该避免使用",
+        "嵌套条件语句是指在一个条件语句内部再使用另一个条件语句"
+      ],
+      "user_answer": "嵌套条件语句是指在一个条件语句内部再使用另一个条件语句",
+      "correct_answer": "嵌套条件语句是指在一个条件语句内部再使用另一个条件语句",
+      "is_correct": true
+    },
+    {
+      "question": "如果条件语句只有if部分而没有else部分，当条件为假时会发生什么？",
+      "options": [
+        "程序会直接跳过if代码块，继续执行后续代码",
+        "程序会等待用户输入",
+        "程序会报错",
+        "程序会自动创建一个else部分"
+      ],
+      "user_answer": "程序会直接跳过if代码块，继续执行后续代码",
+      "correct_answer": "程序会直接跳过if代码块，继续执行后续代码",
+      "is_correct": true
+    },
+    {
+      "question": "在示例代码中，如果变量number的值被修改为-5，程序会输出什么？",
+      "options": [
+        "这个数不是正数。",
+        "这个数是正数。",
+        "程序没有输出",
+        "程序会报错"
+      ],
+      "user_answer": "程序没有输出",
+      "correct_answer": "这个数不是正数。",
+      "is_correct": false
+    }
+  ]
+}

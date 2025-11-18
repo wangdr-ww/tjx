@@ -1,0 +1,167 @@
+{
+  "concept": "循环语句",
+  "concept_slug": "循环语句",
+  "topic": "python核心语法",
+  "quiz_time": "2025-10-22T18:21:27.703110",
+  "total_questions": 13,
+  "correct_count": 12,
+  "accuracy": 92.3076923076923,
+  "questions": [
+    {
+      "question": "循环语句的核心功能是什么？",
+      "options": [
+        "让一段代码被重复执行多次",
+        "提高程序的运行速度",
+        "增加代码的复杂度",
+        "定义新的变量"
+      ],
+      "user_answer": "让一段代码被重复执行多次",
+      "correct_answer": "让一段代码被重复执行多次",
+      "is_correct": true
+    },
+    {
+      "question": "在循环语句中，控制循环启动、继续或终止的关键因素是什么？",
+      "options": [
+        "循环变量的数据类型",
+        "条件表达式",
+        "代码的缩进格式",
+        "循环语句的命名"
+      ],
+      "user_answer": "条件表达式",
+      "correct_answer": "条件表达式",
+      "is_correct": true
+    },
+    {
+      "question": "在'洗碗'的类比中，哪种循环类型最符合其特点？",
+      "options": [
+        "while循环",
+        "for循环",
+        "do-while循环",
+        "无限循环"
+      ],
+      "user_answer": "do-while循环",
+      "correct_answer": "for循环",
+      "is_correct": false
+    },
+    {
+      "question": "在编程中，如果循环条件永远为真，会导致什么结果？",
+      "options": [
+        "程序编译错误",
+        "循环执行一次后停止",
+        "循环变量自动重置",
+        "无限循环"
+      ],
+      "user_answer": "无限循环",
+      "correct_answer": "无限循环",
+      "is_correct": true
+    },
+    {
+      "question": "在for循环中，常用于跟踪当前执行状态的变量被称为什么？",
+      "options": [
+        "条件变量",
+        "迭代变量",
+        "控制变量",
+        "循环变量"
+      ],
+      "user_answer": "循环变量",
+      "correct_answer": "循环变量",
+      "is_correct": true
+    },
+    {
+      "question": "在while循环中，以下哪个操作对于避免无限循环至关重要？",
+      "options": [
+        "在循环体内打印变量值",
+        "在循环体内修改条件判断中使用的变量",
+        "在循环开始前初始化计数器",
+        "使用break语句提前退出循环"
+      ],
+      "user_answer": "在循环体内修改条件判断中使用的变量",
+      "correct_answer": "在循环体内修改条件判断中使用的变量",
+      "is_correct": true
+    },
+    {
+      "question": "观察以下代码片段，输出结果是什么？\nfor i in range(1, 6):\n    print(i)",
+      "options": [
+        "1 2 3 4 5（同一行）",
+        "0 1 2 3 4（每个数字占一行）",
+        "1 2 3 4 5（每个数字占一行）",
+        "1 2 3 4 5 6（每个数字占一行）"
+      ],
+      "user_answer": "1 2 3 4 5（每个数字占一行）",
+      "correct_answer": "1 2 3 4 5（每个数字占一行）",
+      "is_correct": true
+    },
+    {
+      "question": "在循环结构中，break语句的主要作用是什么？",
+      "options": [
+        "跳过当前迭代的剩余代码，直接进入下一次迭代",
+        "暂停循环一段时间后再继续",
+        "立即终止整个循环的执行",
+        "重新开始当前迭代"
+      ],
+      "user_answer": "立即终止整个循环的执行",
+      "correct_answer": "立即终止整个循环的执行",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪个while循环会打印数字1到5，每个数字占一行？",
+      "options": [
+        "count = 1\nwhile count <= 5:\n    print(count)\n    count += 1",
+        "count = 0\nwhile count <= 5:\n    print(count)\n    count += 1",
+        "count = 1\nwhile count < 5:\n    print(count)\n    count += 1",
+        "count = 1\nwhile count <= 5:\n    count += 1\n    print(count)"
+      ],
+      "user_answer": "count = 1\nwhile count <= 5:\n    print(count)\n    count += 1",
+      "correct_answer": "count = 1\nwhile count <= 5:\n    print(count)\n    count += 1",
+      "is_correct": true
+    },
+    {
+      "question": "在循环中，continue语句的作用是？",
+      "options": [
+        "立即退出整个程序",
+        "暂停循环直到用户输入",
+        "终止当前循环并返回一个值",
+        "跳过当前迭代的剩余代码，直接进入下一次循环迭代"
+      ],
+      "user_answer": "跳过当前迭代的剩余代码，直接进入下一次循环迭代",
+      "correct_answer": "跳过当前迭代的剩余代码，直接进入下一次循环迭代",
+      "is_correct": true
+    },
+    {
+      "question": "在Python循环中，当执行到`continue`语句时，会发生什么？",
+      "options": [
+        "暂停循环5秒钟",
+        "立即退出整个循环",
+        "跳过当前迭代的剩余代码，进入下一次迭代",
+        "重新开始当前迭代"
+      ],
+      "user_answer": "跳过当前迭代的剩余代码，进入下一次迭代",
+      "correct_answer": "跳过当前迭代的剩余代码，进入下一次迭代",
+      "is_correct": true
+    },
+    {
+      "question": "以下关于`break`语句的描述，哪一项是正确的？",
+      "options": [
+        "`break`语句会立即退出整个循环",
+        "`break`语句会暂停循环一段时间",
+        "`break`语句用于跳过当前迭代并继续下一次迭代",
+        "`break`语句用于重新启动循环"
+      ],
+      "user_answer": "`break`语句会立即退出整个循环",
+      "correct_answer": "`break`语句会立即退出整个循环",
+      "is_correct": true
+    },
+    {
+      "question": "在给定的代码示例中，当循环变量`num`等于8时，输出结果是什么？",
+      "options": [
+        "立即退出循环，不再打印8及之后的数字",
+        "跳过数字8，继续打印后续数字",
+        "打印数字8，然后继续循环",
+        "重新从数字1开始循环"
+      ],
+      "user_answer": "立即退出循环，不再打印8及之后的数字",
+      "correct_answer": "立即退出循环，不再打印8及之后的数字",
+      "is_correct": true
+    }
+  ]
+}

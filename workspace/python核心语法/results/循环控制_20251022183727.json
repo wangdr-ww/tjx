@@ -1,0 +1,251 @@
+{
+  "concept": "循环控制",
+  "concept_slug": "循环控制",
+  "topic": "python核心语法",
+  "quiz_time": "2025-10-22T18:37:27.081981",
+  "total_questions": 20,
+  "correct_count": 16,
+  "accuracy": 80.0,
+  "questions": [
+    {
+      "question": "在编程中，循环控制的主要作用是什么？",
+      "options": [
+        "创建新的变量类型",
+        "管理循环的执行流程",
+        "定义函数和类",
+        "优化程序的内存使用"
+      ],
+      "user_answer": "管理循环的执行流程",
+      "correct_answer": "管理循环的执行流程",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪个语句用于立即退出整个循环？",
+      "options": [
+        "skip",
+        "stop",
+        "continue",
+        "break"
+      ],
+      "user_answer": "break",
+      "correct_answer": "break",
+      "is_correct": true
+    },
+    {
+      "question": "在操场上跑步的类比中，如果突然下雨导致提前停止跑步，这类似于循环控制中的什么？",
+      "options": [
+        "循环变量",
+        "break 语句",
+        "continue 语句",
+        "循环条件"
+      ],
+      "user_answer": "break 语句",
+      "correct_answer": "break 语句",
+      "is_correct": true
+    },
+    {
+      "question": "哪种循环结构适用于已知循环次数的情况？",
+      "options": [
+        "do 循环",
+        "while 循环",
+        "if 循环",
+        "for 循环"
+      ],
+      "user_answer": "for 循环",
+      "correct_answer": "for 循环",
+      "is_correct": true
+    },
+    {
+      "question": "循环变量在循环中的作用是什么？",
+      "options": [
+        "跟踪循环进度或控制循环次数",
+        "存储用户输入数据",
+        "定义循环条件表达式",
+        "处理程序异常"
+      ],
+      "user_answer": "跟踪循环进度或控制循环次数",
+      "correct_answer": "跟踪循环进度或控制循环次数",
+      "is_correct": true
+    },
+    {
+      "question": "在给定的代码示例中，当 i 等于 3 时，会发生什么？",
+      "options": [
+        "循环会立即终止",
+        "会打印 '遇到数字 3'",
+        "会跳过本次循环的剩余代码，进入下一次循环",
+        "会抛出一个错误"
+      ],
+      "user_answer": "会跳过本次循环的剩余代码，进入下一次循环",
+      "correct_answer": "会跳过本次循环的剩余代码，进入下一次循环",
+      "is_correct": true
+    },
+    {
+      "question": "在代码示例中，循环变量 i 的取值范围是什么？",
+      "options": [
+        "从 0 到 4",
+        "从 0 到 5",
+        "从 1 到 5",
+        "从 1 到 6"
+      ],
+      "user_answer": "从 0 到 4",
+      "correct_answer": "从 1 到 5",
+      "is_correct": false
+    },
+    {
+      "question": "在代码示例中，哪个条件会触发循环的提前终止？",
+      "options": [
+        "`i == 5`",
+        "`i == 3`",
+        "`i == 1`",
+        "`i == 6`"
+      ],
+      "user_answer": "`i == 6`",
+      "correct_answer": "`i == 5`",
+      "is_correct": false
+    },
+    {
+      "question": "关于 `continue` 语句的作用，以下描述正确的是？",
+      "options": [
+        "它用于终止整个循环",
+        "它用于重新启动循环",
+        "它用于跳过整个程序",
+        "它用于跳过当前迭代的剩余语句，直接进入下一次循环"
+      ],
+      "user_answer": "它用于跳过当前迭代的剩余语句，直接进入下一次循环",
+      "correct_answer": "它用于跳过当前迭代的剩余语句，直接进入下一次循环",
+      "is_correct": true
+    },
+    {
+      "question": "如果删除代码中 `i == 5` 时的 `break` 语句，循环会执行多少次完整的迭代？",
+      "options": [
+        "3次",
+        "5次",
+        "4次",
+        "6次"
+      ],
+      "user_answer": "5次",
+      "correct_answer": "5次",
+      "is_correct": true
+    },
+    {
+      "question": "在Python循环中，当执行到`break`语句时会发生什么？",
+      "options": [
+        "立即终止整个循环",
+        "跳过当前循环的剩余代码，直接进入下一次循环",
+        "暂停循环5秒钟",
+        "重新开始当前循环"
+      ],
+      "user_answer": "立即终止整个循环",
+      "correct_answer": "立即终止整个循环",
+      "is_correct": true
+    },
+    {
+      "question": "在给定的代码示例中，当`i == 3`时执行`continue`语句，会发生什么？",
+      "options": [
+        "终止整个循环",
+        "重新从i=1开始循环",
+        "跳过打印数字3的步骤，直接进入i=4的循环",
+        "暂停循环3秒钟"
+      ],
+      "user_answer": "跳过打印数字3的步骤，直接进入i=4的循环",
+      "correct_answer": "跳过打印数字3的步骤，直接进入i=4的循环",
+      "is_correct": true
+    },
+    {
+      "question": "在示例代码中，循环变量i的取值范围是什么？",
+      "options": [
+        "从0到4",
+        "从1到5",
+        "从1到6",
+        "从0到5"
+      ],
+      "user_answer": "从1到6",
+      "correct_answer": "从1到5",
+      "is_correct": false
+    },
+    {
+      "question": "在示例代码中，当i等于5时会发生什么？",
+      "options": [
+        "跳过数字5的打印",
+        "遇到break语句，提前退出循环",
+        "正常打印数字5",
+        "重新开始循环"
+      ],
+      "user_answer": "遇到break语句，提前退出循环",
+      "correct_answer": "遇到break语句，提前退出循环",
+      "is_correct": true
+    },
+    {
+      "question": "关于循环控制语句continue和break的区别，以下哪项描述是正确的？",
+      "options": [
+        "continue跳过当前迭代，break终止整个循环",
+        "continue和break功能完全相同",
+        "continue终止整个循环，break跳过当前迭代",
+        "continue用于开始新循环，break用于结束程序"
+      ],
+      "user_answer": "continue用于开始新循环，break用于结束程序",
+      "correct_answer": "continue跳过当前迭代，break终止整个循环",
+      "is_correct": false
+    },
+    {
+      "question": "当循环执行到 `i == 5` 时，使用 `break` 语句会发生什么？",
+      "options": [
+        "暂停循环，等待用户输入",
+        "跳过当前迭代，继续下一次循环",
+        "立即终止整个循环，后续迭代不再执行",
+        "重新开始循环"
+      ],
+      "user_answer": "立即终止整个循环，后续迭代不再执行",
+      "correct_answer": "立即终止整个循环，后续迭代不再执行",
+      "is_correct": true
+    },
+    {
+      "question": "以下关于 `break` 和 `continue` 区别的描述，哪一项是正确的？",
+      "options": [
+        "`break` 跳过当前迭代，`continue` 终止循环",
+        "`break` 用于跳过步骤，`continue` 用于重启循环",
+        "`break` 和 `continue` 都可以用于终止循环",
+        "`break` 终止整个循环，`continue` 跳过当前迭代剩余代码"
+      ],
+      "user_answer": "`break` 终止整个循环，`continue` 跳过当前迭代剩余代码",
+      "correct_answer": "`break` 终止整个循环，`continue` 跳过当前迭代剩余代码",
+      "is_correct": true
+    },
+    {
+      "question": "如何避免无限循环？",
+      "options": [
+        "始终使用 `for` 循环代替 `while` 循环",
+        "在循环中避免使用 `continue` 语句",
+        "确保循环条件最终会变为假，或在适当时使用 `break` 退出",
+        "只使用固定次数的循环，避免条件判断"
+      ],
+      "user_answer": "确保循环条件最终会变为假，或在适当时使用 `break` 退出",
+      "correct_answer": "确保循环条件最终会变为假，或在适当时使用 `break` 退出",
+      "is_correct": true
+    },
+    {
+      "question": "在什么情况下更适合使用 `while` 循环而不是 `for` 循环？",
+      "options": [
+        "当需要遍历一个已知长度的列表时",
+        "当循环次数已知且固定时",
+        "当需要跳过某些迭代时",
+        "当循环依赖于动态条件，且次数未知时"
+      ],
+      "user_answer": "当循环依赖于动态条件，且次数未知时",
+      "correct_answer": "当循环依赖于动态条件，且次数未知时",
+      "is_correct": true
+    },
+    {
+      "question": "在 `while True:` 循环中，为了避免无限循环，通常如何操作？",
+      "options": [
+        "添加 `if` 条件检查，并在满足条件时使用 `break` 退出",
+        "在循环内使用 `continue` 来跳过迭代",
+        "避免在循环内修改任何变量",
+        "使用 `for` 循环嵌套来限制次数"
+      ],
+      "user_answer": "添加 `if` 条件检查，并在满足条件时使用 `break` 退出",
+      "correct_answer": "添加 `if` 条件检查，并在满足条件时使用 `break` 退出",
+      "is_correct": true
+    }
+  ]
+}

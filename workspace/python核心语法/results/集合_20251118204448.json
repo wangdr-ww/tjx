@@ -1,0 +1,239 @@
+{
+  "concept": "集合",
+  "concept_slug": "集合",
+  "topic": "python核心语法",
+  "quiz_time": "2025-11-18T20:44:48.793224",
+  "total_questions": 19,
+  "correct_count": 19,
+  "accuracy": 100.0,
+  "questions": [
+    {
+      "question": "关于集合（Set）数据结构，以下哪个描述最准确地概括了它的核心特征？",
+      "options": [
+        "用于存储一组唯一的、无序的元素",
+        "用于存储一组有序且允许重复的元素",
+        "用于存储键值对，并通过键来快速访问值",
+        "元素按照插入顺序排列，并且不允许重复"
+      ],
+      "user_answer": "用于存储一组唯一的、无序的元素",
+      "correct_answer": "用于存储一组唯一的、无序的元素",
+      "is_correct": true
+    },
+    {
+      "question": "在大多数编程语言中，集合的一个关键特征是其内部实现通常能支持哪种高效操作？",
+      "options": [
+        "将集合中的元素按插入顺序排列",
+        "通过索引快速访问第n个元素",
+        "对集合中的所有元素进行排序",
+        "快速判断一个特定元素是否存在"
+      ],
+      "user_answer": "快速判断一个特定元素是否存在",
+      "correct_answer": "快速判断一个特定元素是否存在",
+      "is_correct": true
+    },
+    {
+      "question": "根据文档中的简单类比，以下哪个例子最能体现集合的'唯一性'？",
+      "options": [
+        "一个装满不同颜色球的袋子，每次抓球时无法预测会拿到哪个颜色",
+        "一个微信好友列表，好友在列表中的显示顺序可能随时变化",
+        "一个装满不同颜色球的袋子，其中每个球的颜色都是唯一的",
+        "检查袋子里是否有蓝色球时，只需看一眼就能快速知道"
+      ],
+      "user_answer": "一个装满不同颜色球的袋子，其中每个球的颜色都是唯一的",
+      "correct_answer": "一个装满不同颜色球的袋子，其中每个球的颜色都是唯一的",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，以下关于创建集合的代码，哪一个是正确的？",
+      "options": [
+        "fruits = {'apple', 'banana', 'orange'}",
+        "fruits = ['apple', 'banana', 'orange']",
+        "fruits = {'name': 'apple', 'type': 'fruit'}",
+        "fruits = set('apple', 'banana', 'orange')"
+      ],
+      "user_answer": "fruits = {'apple', 'banana', 'orange'}",
+      "correct_answer": "fruits = {'apple', 'banana', 'orange'}",
+      "is_correct": true
+    },
+    {
+      "question": "如果你尝试向一个集合中添加一个已经存在的元素，会发生什么？",
+      "options": [
+        "集合会自动忽略该添加操作，不会产生重复",
+        "集合会创建一个该元素的副本",
+        "集合会抛出错误或异常",
+        "集合会替换掉原有的那个元素"
+      ],
+      "user_answer": "集合会自动忽略该添加操作，不会产生重复",
+      "correct_answer": "集合会自动忽略该添加操作，不会产生重复",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，使用add()方法向集合fruits中添加一个已存在的元素'apple'，会发生什么？",
+      "options": [
+        "集合中会出现两个'apple'元素",
+        "程序会抛出错误",
+        "'apple'元素会被替换为新的值",
+        "集合保持不变，不会添加重复元素"
+      ],
+      "user_answer": "集合保持不变，不会添加重复元素",
+      "correct_answer": "集合保持不变，不会添加重复元素",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪种方法在删除集合中不存在的元素时不会导致程序报错？",
+      "options": [
+        "remove()方法",
+        "delete()方法",
+        "discard()方法",
+        "pop()方法"
+      ],
+      "user_answer": "discard()方法",
+      "correct_answer": "discard()方法",
+      "is_correct": true
+    },
+    {
+      "question": "执行代码 `print('apple' in fruits)` 会输出什么？",
+      "options": [
+        "如果'apple'在集合中，输出True",
+        "输出集合中所有包含'apple'的元素",
+        "输出集合中'apple'的索引位置",
+        "如果'apple'在集合中，输出1"
+      ],
+      "user_answer": "如果'apple'在集合中，输出True",
+      "correct_answer": "如果'apple'在集合中，输出True",
+      "is_correct": true
+    },
+    {
+      "question": "以下关于集合操作的描述，哪一项是正确的？",
+      "options": [
+        "集合中的元素是唯一的，不允许重复",
+        "集合可以使用索引访问特定位置的元素",
+        "集合中的元素必须是同一数据类型",
+        "集合中的元素是有序的"
+      ],
+      "user_answer": "集合中的元素是唯一的，不允许重复",
+      "correct_answer": "集合中的元素是唯一的，不允许重复",
+      "is_correct": true
+    },
+    {
+      "question": "如果集合fruits当前为{'apple', 'orange', 'grape'}，执行fruits.remove('banana')会发生什么？",
+      "options": [
+        "集合中会添加'banana'元素",
+        "程序会正常执行，集合保持不变",
+        "集合中会随机删除一个元素",
+        "程序会抛出KeyError错误"
+      ],
+      "user_answer": "程序会抛出KeyError错误",
+      "correct_answer": "程序会抛出KeyError错误",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，给定集合 set_a = {1, 2, 3, 4} 和 set_b = {3, 4, 5, 6}，哪个操作可以得到 {1, 2, 3, 4, 5, 6}？",
+      "options": [
+        "set_a & set_b",
+        "set_a | set_b",
+        "set_a - set_b",
+        "set_b - set_a"
+      ],
+      "user_answer": "set_a | set_b",
+      "correct_answer": "set_a | set_b",
+      "is_correct": true
+    },
+    {
+      "question": "集合 set_a = {1, 2, 3, 4} 和 set_b = {3, 4, 5, 6} 的交集是什么？",
+      "options": [
+        "{1, 2}",
+        "{5, 6}",
+        "{1, 2, 3, 4, 5, 6}",
+        "{3, 4}"
+      ],
+      "user_answer": "{3, 4}",
+      "correct_answer": "{3, 4}",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，表达式 set_a - set_b 的结果是什么？（已知 set_a = {1, 2, 3, 4}, set_b = {3, 4, 5, 6}）",
+      "options": [
+        "{5, 6}",
+        "{1, 2}",
+        "{3, 4}",
+        "{1, 2, 5, 6}"
+      ],
+      "user_answer": "{1, 2}",
+      "correct_answer": "{1, 2}",
+      "is_correct": true
+    },
+    {
+      "question": "哪个Python集合操作可以找到两个集合中的共同元素？",
+      "options": [
+        "并集（|）",
+        "交集（&）",
+        "差集（-）",
+        "对称差集（^）"
+      ],
+      "user_answer": "交集（&）",
+      "correct_answer": "交集（&）",
+      "is_correct": true
+    },
+    {
+      "question": "如果 set_a = {1, 2, 3} 和 set_b = {3, 4, 5}，那么 set_a.union(set_b) 的结果是？",
+      "options": [
+        "{3}",
+        "{1, 2, 3, 4, 5}",
+        "{1, 2, 4, 5}",
+        "{1, 2}"
+      ],
+      "user_answer": "{1, 2, 3, 4, 5}",
+      "correct_answer": "{1, 2, 3, 4, 5}",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，集合和列表（List）的一个主要区别是什么？",
+      "options": [
+        "集合允许重复元素，而列表不允许",
+        "集合是无序的，而列表是有序的",
+        "集合支持索引访问，而列表不支持",
+        "集合在检查元素是否存在时效率低于列表"
+      ],
+      "user_answer": "集合是无序的，而列表是有序的",
+      "correct_answer": "集合是无序的，而列表是有序的",
+      "is_correct": true
+    },
+    {
+      "question": "为什么集合中的元素必须是“可哈希的”？",
+      "options": [
+        "为了确保元素按特定顺序排列",
+        "为了允许元素被修改",
+        "因为集合使用哈希表实现，需要元素生成哈希值",
+        "因为集合需要支持重复元素"
+      ],
+      "user_answer": "因为集合使用哈希表实现，需要元素生成哈希值",
+      "correct_answer": "因为集合使用哈希表实现，需要元素生成哈希值",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪个是集合在实际编程中的常见应用场景？",
+      "options": [
+        "存储有序的数据序列",
+        "支持高效的索引访问",
+        "快速进行数据去重",
+        "允许存储可变类型元素如列表"
+      ],
+      "user_answer": "快速进行数据去重",
+      "correct_answer": "快速进行数据去重",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，以下哪个集合操作可以找出两个集合中不重复的元素？",
+      "options": [
+        "并集（union）",
+        "交集（intersection）",
+        "对称差集（symmetric_difference）",
+        "差集（difference）"
+      ],
+      "user_answer": "对称差集（symmetric_difference）",
+      "correct_answer": "对称差集（symmetric_difference）",
+      "is_correct": true
+    }
+  ]
+}

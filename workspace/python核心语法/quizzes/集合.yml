@@ -1,0 +1,156 @@
+- question: 关于集合（Set）数据结构，以下哪个描述最准确地概括了它的核心特征？
+  options:
+    A: 用于存储一组唯一的、无序的元素
+    B: 用于存储一组有序且允许重复的元素
+    C: 用于存储键值对，并通过键来快速访问值
+    D: 元素按照插入顺序排列，并且不允许重复
+  answer: A
+  explanation: 根据文档的核心定义，集合是用于存储一组唯一的、无序的元素。选项A和D描述了有序性，这与集合的无序性相悖。选项C描述的是字典（Dictionary）或映射（Map）的特征。
+- question: 在大多数编程语言中，集合的一个关键特征是其内部实现通常能支持哪种高效操作？
+  options:
+    A: 将集合中的元素按插入顺序排列
+    B: 通过索引快速访问第n个元素
+    C: 对集合中的所有元素进行排序
+    D: 快速判断一个特定元素是否存在
+  answer: D
+  explanation: 文档的关键特征部分明确指出，集合可以非常快速地判断一个元素是否存在（时间复杂度接近O(1)），这得益于其内部通常使用哈希表实现。选项A、C、D都涉及顺序，而集合是无序的。
+- question: 根据文档中的简单类比，以下哪个例子最能体现集合的'唯一性'？
+  options:
+    A: 一个装满不同颜色球的袋子，每次抓球时无法预测会拿到哪个颜色
+    B: 一个微信好友列表，好友在列表中的显示顺序可能随时变化
+    C: 一个装满不同颜色球的袋子，其中每个球的颜色都是唯一的
+    D: 检查袋子里是否有蓝色球时，只需看一眼就能快速知道
+  answer: C
+  explanation: 唯一性是指集合中的每个元素都是独一无二的。选项C直接描述了袋子中每个球的颜色是唯一的，这完美对应了唯一性。选项A体现的是无序性，选项B同时体现了唯一性和无序性，但选项C是唯一性最纯粹的例子。选项D体现的是高效查询。
+- question: 在Python中，以下关于创建集合的代码，哪一个是正确的？
+  options:
+    A: fruits = {'apple', 'banana', 'orange'}
+    B: fruits = ['apple', 'banana', 'orange']
+    C: 'fruits = {''name'': ''apple'', ''type'': ''fruit''}'
+    D: fruits = set('apple', 'banana', 'orange')
+  answer: A
+  explanation: 根据文档的代码示例，使用花括号{}并用逗号分隔元素是创建非空集合的正确语法。选项A创建的是一个列表（List）。选项C创建的是一个字典（Dictionary）。选项D的set()函数调用方式错误，正确的应该是set(['apple',
+    'banana', 'orange'])或set(('apple', 'banana', 'orange'))，即传入一个可迭代对象。
+- question: 如果你尝试向一个集合中添加一个已经存在的元素，会发生什么？
+  options:
+    A: 集合会自动忽略该添加操作，不会产生重复
+    B: 集合会创建一个该元素的副本
+    C: 集合会抛出错误或异常
+    D: 集合会替换掉原有的那个元素
+  answer: A
+  explanation: 文档在关键特征的'唯一性'部分明确指出：'如果你尝试添加重复的元素，集合会自动忽略它，不会产生重复。' 因此，添加操作不会导致错误，也不会创建副本或替换原有元素。
+- question: 在Python中，使用add()方法向集合fruits中添加一个已存在的元素'apple'，会发生什么？
+  options:
+    A: 集合中会出现两个'apple'元素
+    B: 程序会抛出错误
+    C: '''apple''元素会被替换为新的值'
+    D: 集合保持不变，不会添加重复元素
+  answer: D
+  explanation: 集合中的元素是唯一的，不允许重复。使用add()方法添加已存在的元素时，集合不会发生任何变化。
+- question: 以下哪种方法在删除集合中不存在的元素时不会导致程序报错？
+  options:
+    A: remove()方法
+    B: delete()方法
+    C: discard()方法
+    D: pop()方法
+  answer: C
+  explanation: remove()方法在删除不存在的元素时会引发KeyError错误，而discard()方法在元素不存在时不会报错，只会静默失败。
+- question: 执行代码 `print('apple' in fruits)` 会输出什么？
+  options:
+    A: 如果'apple'在集合中，输出True
+    B: 输出集合中所有包含'apple'的元素
+    C: 输出集合中'apple'的索引位置
+    D: 如果'apple'在集合中，输出1
+  answer: A
+  explanation: '`in` 关键字用于检查元素是否存在于集合中，如果存在则返回布尔值True，否则返回False。'
+- question: 以下关于集合操作的描述，哪一项是正确的？
+  options:
+    A: 集合中的元素是唯一的，不允许重复
+    B: 集合可以使用索引访问特定位置的元素
+    C: 集合中的元素必须是同一数据类型
+    D: 集合中的元素是有序的
+  answer: A
+  explanation: 集合的主要特性就是元素无序且唯一，不允许重复元素。集合不支持索引操作，且可以包含不同数据类型的元素。
+- question: 如果集合fruits当前为{'apple', 'orange', 'grape'}，执行fruits.remove('banana')会发生什么？
+  options:
+    A: 集合中会添加'banana'元素
+    B: 程序会正常执行，集合保持不变
+    C: 集合中会随机删除一个元素
+    D: 程序会抛出KeyError错误
+  answer: D
+  explanation: remove()方法用于删除集合中存在的元素。如果要删除的元素不存在，Python会抛出KeyError错误。
+- question: 在Python中，给定集合 set_a = {1, 2, 3, 4} 和 set_b = {3, 4, 5, 6}，哪个操作可以得到 {1,
+    2, 3, 4, 5, 6}？
+  options:
+    A: set_a & set_b
+    B: set_a | set_b
+    C: set_a - set_b
+    D: set_b - set_a
+  answer: B
+  explanation: 并集操作（| 或 union() 方法）会返回两个集合中所有不重复的元素，因此 set_a | set_b 的结果是 {1, 2, 3,
+    4, 5, 6}。
+- question: 集合 set_a = {1, 2, 3, 4} 和 set_b = {3, 4, 5, 6} 的交集是什么？
+  options:
+    A: '{1, 2}'
+    B: '{5, 6}'
+    C: '{1, 2, 3, 4, 5, 6}'
+    D: '{3, 4}'
+  answer: D
+  explanation: 交集包含两个集合共有的元素。set_a 和 set_b 的共同元素是 3 和 4，所以交集是 {3, 4}。
+- question: 在Python中，表达式 set_a - set_b 的结果是什么？（已知 set_a = {1, 2, 3, 4}, set_b = {3,
+    4, 5, 6}）
+  options:
+    A: '{5, 6}'
+    B: '{1, 2}'
+    C: '{3, 4}'
+    D: '{1, 2, 5, 6}'
+  answer: B
+  explanation: 差集（- 或 difference() 方法）返回在第一个集合中但不在第二个集合中的元素。set_a - set_b 得到 {1, 2}。
+- question: 哪个Python集合操作可以找到两个集合中的共同元素？
+  options:
+    A: 并集（|）
+    B: 交集（&）
+    C: 差集（-）
+    D: 对称差集（^）
+  answer: B
+  explanation: 交集操作（& 或 intersection() 方法）用于获取两个集合中共同的元素。
+- question: 如果 set_a = {1, 2, 3} 和 set_b = {3, 4, 5}，那么 set_a.union(set_b) 的结果是？
+  options:
+    A: '{3}'
+    B: '{1, 2, 3, 4, 5}'
+    C: '{1, 2, 4, 5}'
+    D: '{1, 2}'
+  answer: B
+  explanation: union() 方法返回两个集合的并集，即所有不重复的元素。set_a 和 set_b 的并集是 {1, 2, 3, 4, 5}。
+- question: 在Python中，集合和列表（List）的一个主要区别是什么？
+  options:
+    A: 集合允许重复元素，而列表不允许
+    B: 集合是无序的，而列表是有序的
+    C: 集合支持索引访问，而列表不支持
+    D: 集合在检查元素是否存在时效率低于列表
+  answer: B
+  explanation: 集合是无序的，元素没有固定的位置；列表是有序的，元素按添加顺序排列。选项A错误，因为列表支持索引访问而集合不支持；选项B错误，因为集合不允许重复元素而列表允许；选项D错误，因为集合在成员检查时效率更高（接近O(1)）。
+- question: 为什么集合中的元素必须是“可哈希的”？
+  options:
+    A: 为了确保元素按特定顺序排列
+    B: 为了允许元素被修改
+    C: 因为集合使用哈希表实现，需要元素生成哈希值
+    D: 因为集合需要支持重复元素
+  answer: C
+  explanation: 集合内部使用哈希表存储元素，以实现快速查询。哈希表要求每个元素能生成一个唯一的哈希值，因此元素必须是可哈希的（通常为不可变类型）。选项A错误，因为集合是无序的；选项C错误，因为可哈希要求元素不可变；选项D错误，因为集合不允许重复元素。
+- question: 以下哪个是集合在实际编程中的常见应用场景？
+  options:
+    A: 存储有序的数据序列
+    B: 支持高效的索引访问
+    C: 快速进行数据去重
+    D: 允许存储可变类型元素如列表
+  answer: C
+  explanation: 集合常用于数据去重，例如使用`set(duplicate_list)`快速删除重复项。选项A错误，因为集合是无序的；选项C错误，因为集合不支持索引访问；选项D错误，因为集合要求元素不可变（可哈希）。
+- question: 在Python中，以下哪个集合操作可以找出两个集合中不重复的元素？
+  options:
+    A: 并集（union）
+    B: 交集（intersection）
+    C: 对称差集（symmetric_difference）
+    D: 差集（difference）
+  answer: C
+  explanation: 对称差集（symmetric_difference）返回两个集合中不重复的元素，即仅存在于一个集合中的元素。选项A（并集）返回所有元素；选项B（交集）返回共同元素；选项C（差集）返回仅存在于第一个集合的元素。

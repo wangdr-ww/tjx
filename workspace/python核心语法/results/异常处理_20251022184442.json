@@ -1,0 +1,203 @@
+{
+  "concept": "异常处理",
+  "concept_slug": "异常处理",
+  "topic": "python核心语法",
+  "quiz_time": "2025-10-22T18:44:42.935103",
+  "total_questions": 16,
+  "correct_count": 14,
+  "accuracy": 87.5,
+  "questions": [
+    {
+      "question": "异常处理的主要目的是什么？",
+      "options": [
+        "管理程序运行时可能出现的错误或异常情况",
+        "让程序运行速度更快",
+        "增加代码的复杂度",
+        "替换所有的if-else判断"
+      ],
+      "user_answer": "管理程序运行时可能出现的错误或异常情况",
+      "correct_answer": "管理程序运行时可能出现的错误或异常情况",
+      "is_correct": true
+    },
+    {
+      "question": "在异常处理机制中，当错误发生时，程序会执行什么操作来通知系统有异常情况？",
+      "options": [
+        "异常检测",
+        "异常捕获",
+        "异常处理",
+        "异常抛出"
+      ],
+      "user_answer": "异常抛出",
+      "correct_answer": "异常抛出",
+      "is_correct": true
+    },
+    {
+      "question": "在编程中，通常使用哪种代码结构来'捕获'抛出的异常？",
+      "options": [
+        "if-else语句",
+        "for循环",
+        "switch-case语句",
+        "try-catch块"
+      ],
+      "user_answer": "try-catch块",
+      "correct_answer": "try-catch块",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪一项是异常处理机制带来的直接好处？",
+      "options": [
+        "确保了算法的最优性",
+        "减少了代码行数",
+        "提高了程序的健壮性",
+        "自动修复了所有错误"
+      ],
+      "user_answer": "提高了程序的健壮性",
+      "correct_answer": "提高了程序的健壮性",
+      "is_correct": true
+    },
+    {
+      "question": "根据提供的简单类比，程序中的'异常情况'最类似于开车时遇到的什么？",
+      "options": [
+        "交通信号灯",
+        "高速公路",
+        "加油站",
+        "路障"
+      ],
+      "user_answer": "路障",
+      "correct_answer": "路障",
+      "is_correct": true
+    },
+    {
+      "question": "在给定的代码中，当除数为0时，哪个代码块会被执行？",
+      "options": [
+        "try块",
+        "except块",
+        "else块",
+        "finally块"
+      ],
+      "user_answer": "else块",
+      "correct_answer": "except块",
+      "is_correct": false
+    },
+    {
+      "question": "在给定的代码中，如果没有发生异常，哪个代码块会被执行？",
+      "options": [
+        "try块和else块",
+        "except块和else块",
+        "else块和finally块",
+        "try块和finally块"
+      ],
+      "user_answer": "try块和finally块",
+      "correct_answer": "else块和finally块",
+      "is_correct": false
+    },
+    {
+      "question": "finally块在什么情况下会被执行？",
+      "options": [
+        "仅当发生异常时",
+        "仅当没有发生异常时",
+        "无论是否发生异常都会执行",
+        "只有当try块成功执行时"
+      ],
+      "user_answer": "无论是否发生异常都会执行",
+      "correct_answer": "无论是否发生异常都会执行",
+      "is_correct": true
+    },
+    {
+      "question": "在给定的代码中，如果除数为2，哪个代码块会打印'计算成功完成'？",
+      "options": [
+        "try块",
+        "else块",
+        "except块",
+        "finally块"
+      ],
+      "user_answer": "else块",
+      "correct_answer": "else块",
+      "is_correct": true
+    },
+    {
+      "question": "在异常处理中，else块的作用是什么？",
+      "options": [
+        "处理所有类型的异常",
+        "处理未被except捕获的异常",
+        "在try块没有发生异常时执行",
+        "在try块发生异常时执行"
+      ],
+      "user_answer": "在try块没有发生异常时执行",
+      "correct_answer": "在try块没有发生异常时执行",
+      "is_correct": true
+    },
+    {
+      "question": "在异常处理结构中，无论是否发生异常都会执行的代码块是哪个？",
+      "options": [
+        "try块",
+        "except块",
+        "else块",
+        "finally块"
+      ],
+      "user_answer": "finally块",
+      "correct_answer": "finally块",
+      "is_correct": true
+    },
+    {
+      "question": "当try块中的代码没有引发任何异常时，哪个代码块会被执行？",
+      "options": [
+        "else块",
+        "except块",
+        "finally块",
+        "except和finally块"
+      ],
+      "user_answer": "else块",
+      "correct_answer": "else块",
+      "is_correct": true
+    },
+    {
+      "question": "在Python异常处理中，用于捕获和处理特定类型异常（如ZeroDivisionError）的代码块是哪个？",
+      "options": [
+        "try块",
+        "except块",
+        "else块",
+        "finally块"
+      ],
+      "user_answer": "except块",
+      "correct_answer": "except块",
+      "is_correct": true
+    },
+    {
+      "question": "在异常处理结构中，哪个代码块包含可能引发异常的代码？",
+      "options": [
+        "try块",
+        "else块",
+        "finally块",
+        "except块"
+      ],
+      "user_answer": "try块",
+      "correct_answer": "try块",
+      "is_correct": true
+    },
+    {
+      "question": "在异常处理中，finally块通常用于什么目的？",
+      "options": [
+        "尝试执行可能出错的代码",
+        "释放资源，如关闭文件",
+        "在没有异常时执行额外代码",
+        "处理特定类型的异常"
+      ],
+      "user_answer": "释放资源，如关闭文件",
+      "correct_answer": "释放资源，如关闭文件",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，当我们需要针对不同类型的异常进行不同的处理时，应该使用以下哪种方法？",
+      "options": [
+        "使用多个except块分别捕获不同类型的异常",
+        "使用一个except块捕获所有异常",
+        "使用多个if-else语句来检查错误类型",
+        "在try块中预先检查所有可能的错误条件"
+      ],
+      "user_answer": "使用多个except块分别捕获不同类型的异常",
+      "correct_answer": "使用多个except块分别捕获不同类型的异常",
+      "is_correct": true
+    }
+  ]
+}

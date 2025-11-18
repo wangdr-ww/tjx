@@ -1,0 +1,275 @@
+{
+  "concept": "列表",
+  "concept_slug": "列表",
+  "topic": "python核心语法",
+  "quiz_time": "2025-10-25T21:58:21.618560",
+  "total_questions": 22,
+  "correct_count": 22,
+  "accuracy": 100.0,
+  "questions": [
+    {
+      "question": "关于列表的核心定义，以下哪一项描述最准确？",
+      "options": [
+        "列表是一个无序的数据集合，用于存储不同类型的元素。",
+        "列表是一种只能存储数字类型数据的固定长度序列。",
+        "列表是一个有序的容器，用于存储多个数据项，这些数据项被称为元素。",
+        "列表的主要特点是其元素必须是相同的数据类型。"
+      ],
+      "user_answer": "列表是一个有序的容器，用于存储多个数据项，这些数据项被称为元素。",
+      "correct_answer": "列表是一个有序的容器，用于存储多个数据项，这些数据项被称为元素。",
+      "is_correct": true
+    },
+    {
+      "question": "在编程中，列表的索引通常是如何开始的？",
+      "options": [
+        "从1开始",
+        "从0开始",
+        "从-1开始",
+        "可以由程序员任意指定"
+      ],
+      "user_answer": "从0开始",
+      "correct_answer": "从0开始",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪一项是列表‘可变性’特征的最佳描述？",
+      "options": [
+        "列表创建后，可以随时添加、删除或修改其中的元素。",
+        "列表一旦创建，其大小和内容就完全固定，无法更改。",
+        "列表的可变性指的是它可以自动对其中的元素进行排序。",
+        "列表的可变性意味着它可以改变自身的数据类型。"
+      ],
+      "user_answer": "列表创建后，可以随时添加、删除或修改其中的元素。",
+      "correct_answer": "列表创建后，可以随时添加、删除或修改其中的元素。",
+      "is_correct": true
+    },
+    {
+      "question": "关于列表中元素的类型，下列说法正确的是？",
+      "options": [
+        "一个列表中的所有元素必须是完全相同的数据类型。",
+        "列表只能存储基本数据类型，如整数和浮点数。",
+        "列表可以容纳各种数据类型的元素，包括数字、字符串，甚至其他列表。",
+        "列表不能存储其他列表作为其元素。"
+      ],
+      "user_answer": "列表可以容纳各种数据类型的元素，包括数字、字符串，甚至其他列表。",
+      "correct_answer": "列表可以容纳各种数据类型的元素，包括数字、字符串，甚至其他列表。",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪个生活例子最能类比列表的‘有序性’和‘索引’概念？",
+      "options": [
+        "一个杂乱无章的玩具箱，里面的玩具没有固定位置。",
+        "一个可以随意调整内部物品位置的背包。",
+        "一个装满各种水果的混合果篮，没有特定摆放顺序。",
+        "一列火车，每节车厢都有固定的编号和顺序。"
+      ],
+      "user_answer": "一列火车，每节车厢都有固定的编号和顺序。",
+      "correct_answer": "一列火车，每节车厢都有固定的编号和顺序。",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，列表的索引是从哪个数字开始的？",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "可以是任意数字"
+      ],
+      "user_answer": "0",
+      "correct_answer": "0",
+      "is_correct": true
+    },
+    {
+      "question": "对于列表 my_list = ['苹果', '香蕉', '橙子']，执行 my_list[0] 会返回什么值？",
+      "options": [
+        "0",
+        "'香蕉'",
+        "'橙子'",
+        "'苹果'"
+      ],
+      "user_answer": "'苹果'",
+      "correct_answer": "'苹果'",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪一项不是列表的特性？",
+      "options": [
+        "有序",
+        "可变",
+        "元素不可重复",
+        "容纳不同类型"
+      ],
+      "user_answer": "元素不可重复",
+      "correct_answer": "元素不可重复",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，列表 my_list = ['苹果', '香蕉', '橙子'] 包含多少个元素？",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "1"
+      ],
+      "user_answer": "3",
+      "correct_answer": "3",
+      "is_correct": true
+    },
+    {
+      "question": "关于Python列表的'可变性'，以下描述最准确的是？",
+      "options": [
+        "列表创建后，其元素数量和值都不能改变",
+        "列表创建后，可以增加或移除其中的元素",
+        "列表创建后，只能改变元素的值，不能增减元素",
+        "列表创建后，元素的顺序是固定的，不能改变"
+      ],
+      "user_answer": "列表创建后，可以增加或移除其中的元素",
+      "correct_answer": "列表创建后，可以增加或移除其中的元素",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，如何将列表my_list的第二个元素（索引为1）修改为'葡萄'？",
+      "options": [
+        "my_list(1) = '葡萄'",
+        "my_list.set(1, '葡萄')",
+        "my_list.update(1, '葡萄')",
+        "my_list[1] = '葡萄'"
+      ],
+      "user_answer": "my_list[1] = '葡萄'",
+      "correct_answer": "my_list[1] = '葡萄'",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，哪个方法用于向列表末尾添加一个新元素？",
+      "options": [
+        "insert()",
+        "append()",
+        "add()",
+        "push()"
+      ],
+      "user_answer": "append()",
+      "correct_answer": "append()",
+      "is_correct": true
+    },
+    {
+      "question": "如果列表my_list包含['苹果', '香蕉', '橙子']，执行my_list.remove('橙子')后，列表内容是什么？",
+      "options": [
+        "['苹果', '香蕉']",
+        "['苹果', '香蕉', '橙子']",
+        "['苹果', '橙子']",
+        "['香蕉', '橙子']"
+      ],
+      "user_answer": "['苹果', '香蕉']",
+      "correct_answer": "['苹果', '香蕉']",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，如何获取列表my_list的长度（即元素个数）？",
+      "options": [
+        "my_list.size",
+        "my_list.length()",
+        "len(my_list)",
+        "count(my_list)"
+      ],
+      "user_answer": "len(my_list)",
+      "correct_answer": "len(my_list)",
+      "is_correct": true
+    },
+    {
+      "question": "执行以下代码后，列表my_list的最终内容是什么？my_list = ['苹果', '香蕉', '橙子']; my_list[1] = '葡萄'; my_list.append('草莓'); my_list.remove('橙子')",
+      "options": [
+        "['苹果', '葡萄', '橙子', '草莓']",
+        "['苹果', '香蕉', '草莓']",
+        "['葡萄', '橙子', '草莓']",
+        "['苹果', '葡萄', '草莓']"
+      ],
+      "user_answer": "['苹果', '葡萄', '草莓']",
+      "correct_answer": "['苹果', '葡萄', '草莓']",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，使用for循环遍历列表时，循环变量代表什么？",
+      "options": [
+        "列表的索引",
+        "列表中的每个元素",
+        "列表的长度",
+        "列表本身"
+      ],
+      "user_answer": "列表中的每个元素",
+      "correct_answer": "列表中的每个元素",
+      "is_correct": true
+    },
+    {
+      "question": "以下哪段代码能正确遍历列表并打印每个元素？",
+      "options": [
+        "for i in range(my_list): print(my_list)",
+        "for fruit in my_list: print(fruit)",
+        "for i in len(my_list): print(my_list[i])",
+        "while fruit in my_list: print(fruit)"
+      ],
+      "user_answer": "for fruit in my_list: print(fruit)",
+      "correct_answer": "for fruit in my_list: print(fruit)",
+      "is_correct": true
+    },
+    {
+      "question": "执行代码`for fruit in ['苹果', '香蕉', '橙子']: print(' -', fruit)`的输出是什么？",
+      "options": [
+        "- 苹果\n- 香蕉\n- 橙子",
+        "['苹果', '香蕉', '橙子']",
+        "- 苹果 - 香蕉 - 橙子",
+        "苹果 香蕉 橙子"
+      ],
+      "user_answer": "- 苹果\n- 香蕉\n- 橙子",
+      "correct_answer": "- 苹果\n- 香蕉\n- 橙子",
+      "is_correct": true
+    },
+    {
+      "question": "关于列表遍历，以下说法正确的是？",
+      "options": [
+        "遍历是按顺序访问每个元素的过程",
+        "遍历会修改原列表的元素",
+        "遍历只能从第一个元素开始",
+        "遍历列表时必须知道列表的长度"
+      ],
+      "user_answer": "遍历是按顺序访问每个元素的过程",
+      "correct_answer": "遍历是按顺序访问每个元素的过程",
+      "is_correct": true
+    },
+    {
+      "question": "如果列表为空，执行遍历循环会发生什么？",
+      "options": [
+        "报错",
+        "只打印空行",
+        "进入无限循环",
+        "跳过循环，不执行循环体"
+      ],
+      "user_answer": "跳过循环，不执行循环体",
+      "correct_answer": "跳过循环，不执行循环体",
+      "is_correct": true
+    },
+    {
+      "question": "关于Python列表和传统数组的主要区别，以下哪项描述最准确？",
+      "options": [
+        "列表必须包含相同类型的数据，而数组可以包含不同类型的数据。",
+        "列表的大小是固定的，而数组的大小可以动态改变。",
+        "列表可以动态改变大小并容纳不同类型的数据，而传统数组通常是固定大小且元素类型一致。",
+        "列表的索引从1开始，而数组的索引从0开始。"
+      ],
+      "user_answer": "列表可以动态改变大小并容纳不同类型的数据，而传统数组通常是固定大小且元素类型一致。",
+      "correct_answer": "列表可以动态改变大小并容纳不同类型的数据，而传统数组通常是固定大小且元素类型一致。",
+      "is_correct": true
+    },
+    {
+      "question": "在Python中，如果想在列表 `[1, 2, 4]` 的索引2位置插入元素3，得到 `[1, 2, 3, 4]`，应该使用哪个方法？",
+      "options": [
+        "使用 `append(3)` 方法",
+        "使用 `insert(2, 3)` 方法",
+        "使用 `add(2, 3)` 方法",
+        "使用 `push(3)` 方法"
+      ],
+      "user_answer": "使用 `insert(2, 3)` 方法",
+      "correct_answer": "使用 `insert(2, 3)` 方法",
+      "is_correct": true
+    }
+  ]
+}
